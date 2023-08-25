@@ -1,0 +1,1054 @@
+[
+  {
+    "№": "HTML/CSS"
+  },
+  {
+    "№": 1,
+    "Questions": "Вкажіть елементи верхнього рівня HTML-документа",
+    "Answer 1": "html, head, body",
+    "Answer 2": "section, title, article",
+    "Answer 3": "header, main, footer",
+    "Answer 4": "h1, p, link",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 2,
+    "Questions": "Які теги використовуються для розмітки тексту?",
+    "Answer 1": "sub, sup, strong, b",
+    "Answer 2": "dl, span, pre",
+    "Answer 3": "time, address, i, em",
+    "Answer 4": "всі варіанти вірні",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 3,
+    "Questions": "Елемент <main> призначений для...",
+    "Answer 1": "групування дрібних елементів на сторінці",
+    "Answer 2": "основного вмісту документа",
+    "Answer 3": "форматування контенту для пошукових систем",
+    "Answer 4": "немає вірної відповіді",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 4,
+    "Questions": "Синій колір - це...",
+    "Answer 1": "rgb(0, 255, 0)",
+    "Answer 2": "rgb(0, 0, 0)",
+    "Answer 3": "rgb(0, 0, 255)",
+    "Answer 4": "rgb(255, 0, 0)",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 5,
+    "Questions": "Який елемент не успадковує font-family від body?",
+    "Answer 1": "button",
+    "Answer 2": "span",
+    "Answer 3": "a",
+    "Answer 4": "article",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 6,
+    "Questions": "Яка мінімальна кількість кольорів повинна бути вказана у градієнті?",
+    "Answer 1": 1,
+    "Answer 2": 2,
+    "Answer 3": 3,
+    "Answer 4": 4,
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 7,
+    "Questions": "Яка CSS-властивість визначає зовнішній відступ для елемента?",
+    "Answer 1": "border",
+    "Answer 2": "padding",
+    "Answer 3": "margin",
+    "Answer 4": "width",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 8,
+    "Questions": "Виберіть правильно записаний клас класу для елемента",
+    "Code": " <div class=”box”></div>",
+    "Answer 1": "div > box",
+    "Answer 2": ".box",
+    "Answer 3": "div + box",
+    "Answer 4": "box",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 9,
+    "Questions": "За допомогою якого символу оголошується селектор id?",
+    "Answer 1": "#",
+    "Answer 2": "&",
+    "Answer 3": "*",
+    "Answer 4": ">",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 10,
+    "Questions": "Скільки осей у flex-контейнері?",
+    "Answer 1": 1,
+    "Answer 2": 2,
+    "Answer 3": 3,
+    "Answer 4": 4,
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 11,
+    "Questions": "Які елементи можна вкладати у ul/ol?",
+    "Answer 1": "тільки блочні",
+    "Answer 2": "li обернутий в div",
+    "Answer 3": "Будь -які",
+    "Answer 4": "тільки li",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 12,
+    "Questions": "Сімейство шрифту із засічками",
+    "Answer 1": "sans-serif",
+    "Answer 2": "monospace",
+    "Answer 3": "serif",
+    "Answer 4": "cursive",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 13,
+    "Questions": "За що відповідає HTML?",
+    "Answer 1": "за структуру і зміст",
+    "Answer 2": "за зовнішній вигляд",
+    "Answer 3": "за функціонал",
+    "Answer 4": "всі варіанти вірні",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 14,
+    "Questions": "Що таке тег?",
+    "Answer 1": "пояснення у вихідному коді",
+    "Answer 2": "елемент мови розмітки гіпертексту",
+    "Answer 3": "значення власивості для оформлення зовнішнього вигляду",
+    "Answer 4": "найбільший будівельний блок",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 15,
+    "Questions": "Яка властивість не впливає на блокову модель елемента?",
+    "Answer 1": "border",
+    "Answer 2": "padding",
+    "Answer 3": "margin",
+    "Answer 4": "outline",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 16,
+    "Questions": "Блоковий елемент від рядкового відрізняється тим, що...",
+    "Answer 1": "Не повинен починатись з нового рядка",
+    "Answer 2": "Ширина визначається контентом",
+    "Answer 3": "Займає всю доступну ширину батька",
+    "Answer 4": "Всередині не можна розміщувати інший блоковий елемент",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 17,
+    "Questions": "Фон елемента дефолту поширюється на",
+    "Answer 1": "paddind + content",
+    "Answer 2": "margin + padding + content",
+    "Answer 3": "margin + content",
+    "Answer 4": "content",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 18,
+    "Questions": "Навіщо потрібен атрибут placeholder",
+    "Answer 1": "автозаповнення",
+    "Answer 2": "текст-підсказка",
+    "Answer 3": "слугує для валідації",
+    "Answer 4": "взагалі не потрібен",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 19,
+    "Questions": "Яка різниця між animation та transition",
+    "Answer 1": "анімацію не можна перевести в статус паузи",
+    "Answer 2": "різний синтаксис ",
+    "Answer 3": "у animation є проміжні стани",
+    "Answer 4": "ніякий",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 20,
+    "Questions": "Яка властивість є обов'язковою при створенні before та after",
+    "Answer 1": "widnh",
+    "Answer 2": "position",
+    "Answer 3": "display",
+    "Answer 4": "content",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 21,
+    "Questions": "Блокові елементи приймають ширину...",
+    "Answer 1": "За доступною шириною",
+    "Answer 2": "За вмістом",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 22,
+    "Questions": "За умовчанням, значення властивості align-items для флекс-контейнера буде...",
+    "Answer 1": "flex-start",
+    "Answer 2": "stretch",
+    "Answer 3": "center",
+    "Answer 4": "baseline",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 23,
+    "Questions": "Який оператор позначає логічне \"і\" для @media",
+    "Answer 1": ",",
+    "Answer 2": "screen",
+    "Answer 3": "and",
+    "Answer 4": "пробіл",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 24,
+    "Questions": "Яка властивість НЕ змінює порядок виведення елементів на сторінці",
+    "Answer 1": "wrap-rewerse",
+    "Answer 2": "row-rewerse",
+    "Answer 3": "order",
+    "Answer 4": "column",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 25,
+    "Questions": "Тег <datalist> створює...",
+    "Answer 1": "список автозаповнення",
+    "Answer 2": "випадаючий список",
+    "Answer 3": "поле для заповнення",
+    "Answer 4": "контекстне меню",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 26,
+    "Questions": "З яких частин складається форма?",
+    "Answer 1": "системою управління контейнтом та серверу",
+    "Answer 2": "інтерфейсу користувача і бекенду",
+    "Answer 3": "інтерфейсу адміна і фронтенду",
+    "Answer 4": "інтерфейсу користувача і клауд-сервісів",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 27,
+    "Questions": "Без якої властивості не можливо створити псевдоелемент ::before",
+    "Answer 1": "position",
+    "Answer 2": "display",
+    "Answer 3": "content",
+    "Answer 4": "width/height",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 28,
+    "Questions": "Для наслідування в SASS використовується директива",
+    "Answer 1": "@mixin",
+    "Answer 2": "@include",
+    "Answer 3": "@import",
+    "Answer 4": "@extended",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 29,
+    "Questions": "Який атрибут має бути однаково заповнений у групи радіо-батонів, щоб браузер зрозумів що це група?",
+    "Answer 1": "name",
+    "Answer 2": "value",
+    "Answer 3": "type",
+    "Answer 4": "checked",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 30,
+    "Questions": "Вкажіть помилкові параметри для градієнта",
+    "Answer 1": "linear-gradient(70deg, blue, pink)",
+    "Answer 2": "linear-gradient(to center, blue)",
+    "Answer 3": "linear-gradient(to bottom right, blue, pink)",
+    "Answer 4": "radial-gradient(at center, var(--start-color) 10%, var(--end-color) 50%)",
+    "Block": "HTML+CSS"
+  },
+  null,
+  {
+    "№": "JavaScript"
+  },
+  {
+    "№": 1,
+    "Questions": "Що виведеться в консоль?",
+    "Code": "console.log(Number(null))",
+    "Answer 1": 0,
+    "Answer 2": 1,
+    "Answer 3": "NaN",
+    "Answer 4": "Error",
+    "Block": "JS"
+  },
+  {
+    "№": 2,
+    "Questions": "Що буде виведено у консоль?",
+    "Code": "const value = 5;\nconst value = 'bunny';\nconsole.log(value);",
+    "Answer 1": "bunny",
+    "Answer 2": "Помилка 'Duplicate declaration \"value\"'",
+    "Answer 3": "undefined",
+    "Answer 4": 5,
+    "Block": "JS"
+  },
+  {
+    "№": 3,
+    "Questions": "Що буде виведено у консоль?",
+    "Code": "const value;\nvalue = 10;\nconsole.log(value);",
+    "Answer 1": 10,
+    "Answer 2": "undefined",
+    "Answer 3": "Помилка 'Missing initializer in const declaration'",
+    "Answer 4": "Помилка 'ReferenceError: value is not defined'",
+    "Block": "JS"
+  },
+  {
+    "№": 4,
+    "Questions": "Що повертає метод Array.prototype.filter()?",
+    "Answer 1": "Завжди масив",
+    "Answer 2": "Масив, якщо результат роботи містить більше одного елемента",
+    "Answer 3": "Один елемент, якщо він пройшов фільтрацію",
+    "Block": "JS"
+  },
+  {
+    "№": 5,
+    "Questions": "Що з перерахованого не є хибним (Falsy) значенням?",
+    "Answer 1": "null",
+    "Answer 2": "undefined",
+    "Answer 3": 0,
+    "Answer 4": "\"false\"",
+    "Block": "JS"
+  },
+  {
+    "№": 6,
+    "Questions": "Який спосіб масиву використовується для пошуку унікального елемента колекції?",
+    "Answer 1": "Array.prototype.reduce()",
+    "Answer 2": "Array.prototype.filter()",
+    "Answer 3": "Array.prototype.map()",
+    "Answer 4": "Array.prototype.find()",
+    "Block": "JS"
+  },
+  {
+    "№": 7,
+    "Questions": "Метод Array.prototype.map() завжди поверне масив такої ж довжини як вихідний?",
+    "Answer 1": "Так",
+    "Answer 2": "Ні",
+    "Block": "JS"
+  },
+  {
+    "№": 8,
+    "Questions": "Що робить метод Array.prototype.filter()?",
+    "Answer 1": "Перебирає масив, записуючи до нового масиву ті елементи вихідного, на ітерації яких callback-функція повернула false",
+    "Answer 2": "Перебирає масив, записуючи до нового масиву ті елементи вихідного, на ітерації яких callback-функція повернула true",
+    "Block": "JS"
+  },
+  {
+    "№": 9,
+    "Questions": "\nЯк отримати список усіх ключів об'єкта obj?",
+    "Answer 1": "obj.keys",
+    "Answer 2": "obj.keys()",
+    "Answer 3": "Object.keys(obj)",
+    "Block": "JS"
+  },
+  {
+    "№": 10,
+    "Questions": "\nЯкий метод JSON перетворює об'єкт на рядок?",
+    "Answer 1": "JSON.parse()",
+    "Answer 2": "JSON.stringify()",
+    "Answer 3": "JSON.convert()",
+    "Answer 4": "JSON.toString()",
+    "Block": "JS"
+  },
+  {
+    "№": 11,
+    "Questions": "Виберіть не існуючий HTTP-метод\"",
+    "Answer 1": "GRAB",
+    "Answer 2": "GET",
+    "Answer 3": "PUT",
+    "Answer 4": "DELETE",
+    "Block": "JS"
+  },
+  {
+    "№": 12,
+    "Questions": "\nЯкий символ URL вказує на початок рядка параметрів запиту?",
+    "Answer 1": "://",
+    "Answer 2": "&",
+    "Answer 3": ":",
+    "Answer 4": "?",
+    "Block": "JS"
+  },
+  {
+    "№": 13,
+    "Questions": "Які типи даних підтримує Javascript?",
+    "Answer 1": "Числа, рядки, логічний тип, об'єкти, масиви, undefined",
+    "Answer 2": "Числа, рядки, логічний тип, об'єкти, масиви, null",
+    "Answer 3": "Числа, рядки, логічний тип, об'єкти, масиви, null, undefined",
+    "Answer 4": "Числа, рядки, логічний тип, об'єкти, null, undefined",
+    "Block": "JS"
+  },
+  {
+    "№": 14,
+    "Questions": "Як можна створити новий об'єкт в Javascript?",
+    "Answer 1": "[ ]",
+    "Answer 2": "{ }",
+    "Answer 3": "( )",
+    "Answer 4": "< >",
+    "Block": "JS"
+  },
+  {
+    "№": 15,
+    "Questions": "Як можна отримати кількість елементів у масиві?",
+    "Answer 1": "length",
+    "Answer 2": "size",
+    "Answer 3": "count",
+    "Answer 4": "index",
+    "Block": "JS"
+  },
+  {
+    "№": 16,
+    "Questions": "Що буде виведено у консоль?",
+    "Code": "const min = Math.min (... [1, 5, -1, -10]);\nconsole.log(min);",
+    "Answer 1": -1,
+    "Answer 2": -10,
+    "Answer 3": "[1, 5, -1, -10]",
+    "Answer 4": 5,
+    "Block": "JS"
+  },
+  {
+    "№": 17,
+    "Questions": "\nЩо повертає метод fetch()?\n",
+    "Answer 1": "Дані, як результат асинхронної операції",
+    "Answer 2": "Проміс (promise)",
+    "Block": "JS"
+  },
+  {
+    "№": 18,
+    "Questions": "Що буде виведено у консоль?",
+    "Code": "const name = 'bob';\nconst age = 20;\nconst obj = {\n  name,\n  age\n};\n\nconsole.log(obj);",
+    "Answer 1": "['name', 'age']",
+    "Answer 2": "{name: null, age: null}",
+    "Answer 3": "{name: 'bob', age: 20}",
+    "Answer 4": "{'bob: null, '20': null}",
+    "Block": "JS"
+  },
+  {
+    "№": 19,
+    "Questions": "\nЩо таке NPM?\n",
+    "Answer 1": "менеджер пакетів, який використовується Node.js додатками",
+    "Answer 2": "менеджер сервера, який використовується Node.js-додатками",
+    "Answer 3": "Бібліотека анімацій",
+    "Block": "JS"
+  },
+  {
+    "№": 20,
+    "Questions": "Що буде виведено у консоль?",
+    "Code": "const piece = {\n  x: 0,\n  y: 0,\n  move(x, y) {\n    this.x = x;\n    this.y = y;\n  },\n};\n\npiece.move(10, 10);\nconsole.log(piece);",
+    "Answer 1": "null",
+    "Answer 2": "undefined",
+    "Answer 3": "{ x: 0, y: 0, move: f }",
+    "Answer 4": "{ x: 10, y: 10, move: f }",
+    "Block": "JS"
+  },
+  {
+    "№": 21,
+    "Questions": "\nЯкою командою запускатиметься npm скрипт з ім'ям qwerty\"?\"",
+    "Answer 1": "npm run qwerty",
+    "Answer 2": "npm start qwerty",
+    "Answer 3": "npm qwerty",
+    "Answer 4": "npm execute qwerty",
+    "Block": "JS"
+  },
+  {
+    "№": 22,
+    "Questions": "Що буде виведено у консоль?",
+    "Code": "const [a, ,b] = 'JavaScript is awesome'.split(' ');\nconsole.log(a, b);",
+    "Answer 1": "JavaScript is', 'awesome'",
+    "Answer 2": "JavaScript', 'awesome'",
+    "Answer 3": "JavaScript', 'is', 'awesome'",
+    "Answer 4": "awesome'",
+    "Block": "JS"
+  },
+  {
+    "№": 23,
+    "Questions": "\nЯкі два типи експорту модулів існують у ECMAScript Modules?",
+    "Answer 1": "single export и multiple exports",
+    "Answer 2": "function export и variable export",
+    "Answer 3": "named export и default export",
+    "Block": "JS"
+  },
+  {
+    "№": 24,
+    "Questions": "Що буде виведено у консоль?",
+    "Code": "const { name, age, gender = 'm', hairColor: color } = {\n name: 'Jacob',\n age: 20,\n hairColor: 'blue',\n};\n\nconsole.log(name, age, gender, color);",
+    "Answer 1": "A runtime exception will be thrown",
+    "Answer 2": "undefined, undefined, 'm', 'blue'",
+    "Answer 3": "Jacob', 20, undefined, 'blue'",
+    "Answer 4": "Jacob', 20, 'm', 'blue'",
+    "Block": "JS"
+  },
+  {
+    "№": 25,
+    "Questions": "Який метод використовується для створення нового масиву з вибраних елементів в існуючому масиві?",
+    "Answer 1": "map()",
+    "Answer 2": "slice()",
+    "Answer 3": "splice()",
+    "Answer 4": "reduce()",
+    "Block": "JS"
+  },
+  {
+    "№": 26,
+    "Questions": "Що буде виведено у консоль?",
+    "Code": "const dog = {name: 'Poly'};\n\nfunction showDogName() {\n  console.log(this.name);\n}\n\nconst boundShowDogName = showDogName.bind(dog);\nboundShowDogName();",
+    "Answer 1": "undefined",
+    "Answer 2": "Poly'",
+    "Answer 3": "null",
+    "Answer 4": "Помилка зверення до властивості name",
+    "Block": "JS"
+  },
+  {
+    "№": 27,
+    "Questions": "Виберіть опис package.json\"",
+    "Answer 1": "Це файл із даними версій проекту та його автора",
+    "Answer 2": "Це JavaScript-подання програми та її залежностей",
+    "Answer 3": "Це JSON-подання програми та її залежностей",
+    "Answer 4": "Це точка входу в проект для Node.js додатків",
+    "Block": "JS"
+  },
+  {
+    "№": 28,
+    "Questions": "Що буде виведено у консоль?",
+    "Code": "const userA = {\n  name: 'Mango',\n  age: 5,\n};\n\nconst userB = {\n  ...userA,\n  age: 10,\n  happy: true,\n};\n\nconsole.log(userB);",
+    "Answer 1": "{name: 'Mango', age: 10, happy: true}",
+    "Answer 2": "{ userA: {name: 'Mango', age: 5}, age: 10, happy: true}",
+    "Answer 3": "{name: 'Mango', age: 5, happy: true}",
+    "Block": "JS"
+  },
+  {
+    "№": 29,
+    "Questions": "Який тип імпорту?",
+    "Code": "import { a, b } from 'lib';",
+    "Answer 1": "Імпорт за замовчуванням",
+    "Answer 2": "Іменований імпорт",
+    "Answer 3": "імпорт простору імен",
+    "Block": "JS"
+  },
+  {
+    "№": 30,
+    "Questions": "\nЩо таке проміс (promise)?\n",
+    "Answer 1": "Це дані, отримані в результаті асинхронної операції",
+    "Answer 2": "Це функція, що представляє кінцевий результат асинхронної операції",
+    "Answer 3": "Це об'єкт, що є кінцевим результатом асинхронної операції.",
+    "Block": "JS"
+  },
+  null,
+  {
+    "№": "React"
+  },
+  {
+    "№": 1,
+    "Questions": "Подія / action (*опис знаходимо в рамках redux)",
+    "Answer 1": "визов метода useState()",
+    "Answer 2": "Деяка подія / event",
+    "Answer 3": "відправка даних на backend",
+    "Answer 4": "об'єкт, який описує, що сталося",
+    "Block": "React"
+  },
+  {
+    "№": 2,
+    "Questions": "За допомогою якого методу відправляються подія / action?",
+    "Answer 1": "dispatch(action)",
+    "Answer 2": "callback(dispatch)",
+    "Answer 3": "reducers(action)",
+    "Answer 4": "додаткового методу не потрібно",
+    "Block": "React"
+  },
+  {
+    "№": 3,
+    "Questions": "Скільки потрібно викликів ReactDOM.createRoot(elem).render() щоб програма працювала?",
+    "Answer 1": "залежить від розміру програми",
+    "Answer 2": "3-5",
+    "Answer 3": "достатньо використовувати лише один виклик",
+    "Answer 4": "не потрібно взагалі",
+    "Block": "React"
+  },
+  {
+    "№": 4,
+    "Questions": "Метод ReactDOM.createRoot(elem).render() використовується для того, щоб ...",
+    "Answer 1": "видалити елемент",
+    "Answer 2": "змінити елемент",
+    "Answer 3": "цей метод не використовується",
+    "Answer 4": "рендерити елемент",
+    "Block": "React"
+  },
+  {
+    "№": 5,
+    "Questions": "props може бути null або порожній об'єкт?",
+    "Answer 1": "yes",
+    "Answer 2": "no",
+    "Block": "React"
+  },
+  {
+    "№": 6,
+    "Questions": "React.createElement(type, [props], [...children]), props це...?",
+    "Answer 1": "ім'я вбудованого React-елемента",
+    "Answer 2": "об'єкт, що містить HTML-атрибути та кастомні властивості",
+    "Answer 3": "масив значень",
+    "Answer 4": "довільна кількість аргументів",
+    "Block": "React"
+  },
+  {
+    "№": 7,
+    "Questions": "useEffect() може приймати два аргументи:",
+    "Answer 1": "useState, redux",
+    "Answer 2": "useState, state",
+    "Answer 3": "callback, масив залежностей",
+    "Answer 4": "callback, promise",
+    "Block": "React"
+  },
+  {
+    "№": 8,
+    "Questions": "Можна використовувати hooks за межами функціональних компонентів?",
+    "Answer 1": "yes",
+    "Answer 2": "no",
+    "Block": "React"
+  },
+  {
+    "№": 9,
+    "Questions": "Можна змінювати state безпосередньо за посиланням. Особливо при роботі з масивами, об'єктами?",
+    "Answer 1": "no",
+    "Answer 2": "yes",
+    "Block": "React"
+  },
+  {
+    "№": 10,
+    "Questions": "Об'єкт-стану state можна змінювати розробником напряму?",
+    "Answer 1": "yes",
+    "Answer 2": "no",
+    "Block": "React"
+  },
+  {
+    "№": 11,
+    "Questions": "Коли змінюється state або props компонента відбувається...",
+    "Answer 1": "те, що вкаже розробник",
+    "Answer 2": "оновлення батьківського компонента",
+    "Answer 3": "re-render компонента",
+    "Answer 4": "нічого не відбувається",
+    "Block": "React"
+  },
+  {
+    "№": 12,
+    "Questions": "Значення null, undefined або false рендеряться у розмітці?",
+    "Answer 1": "yes",
+    "Answer 2": "no",
+    "Block": "React"
+  },
+  {
+    "№": 13,
+    "Questions": "Ім'я react компонента обов'язково має починатися з великої літери?",
+    "Answer 1": "yes",
+    "Answer 2": "no",
+    "Block": "React"
+  },
+  {
+    "№": 14,
+    "Questions": "Скільки потрібно викликів ReactDOM.render() щоб програма працювала?",
+    "Answer 1": "3- 5",
+    "Answer 2": "залежить від розміру програми",
+    "Answer 3": "достатньо використовувати лише один виклик",
+    "Answer 4": "не потрібно взагалі",
+    "Block": "React"
+  },
+  {
+    "№": 15,
+    "Questions": "Метод ReactDOM.render() використовується для того, щоб ...",
+    "Answer 1": "видалити елемент",
+    "Answer 2": "рендерити елемент",
+    "Answer 3": "змінити елемент",
+    "Answer 4": "цей метод не використовується",
+    "Block": "React"
+  },
+  {
+    "№": 16,
+    "Questions": "reducer чистий, він обчислює наступний стан і повертає його, без сюрпризів, жодних побічних ефектів, ніяких мутацій",
+    "Answer 1": "yes",
+    "Answer 2": "no",
+    "Block": "React"
+  },
+  {
+    "№": 17,
+    "Questions": "Повертає об'єкт розташування, що представляє поточну URL-адресу, при переході на нову або оновленні поточної URL-адреси",
+    "Answer 1": "useMatch",
+    "Answer 2": "useLocation",
+    "Answer 3": "useRouteMatch",
+    "Answer 4": "useRoute",
+    "Block": "React"
+  },
+  {
+    "№": 18,
+    "Questions": "Функція яку повертаємо з useEffect виконується при розмонтуванні компонента, або взагалі перед кожним викликом useEffect",
+    "Answer 1": "yes",
+    "Answer 2": "no",
+    "Block": "React"
+  },
+  {
+    "№": 19,
+    "Questions": "Якщо не передати масив залежностей, useEffect виконуватиметься",
+    "Answer 1": "виконуватися не буде",
+    "Answer 2": "при пешому рендері",
+    "Answer 3": "на кожному рендері компонента",
+    "Answer 4": "при розмонтуванні компонента",
+    "Block": "React"
+  },
+  {
+    "№": 20,
+    "Questions": "За допомогою hooks useEffect у компонентах-функціях можна виконувати «ефекти», змоделювавши роботу методів ...",
+    "Answer 1": "componentDidMount,",
+    "Answer 2": "componentDidUpdate, componentWillUnmount",
+    "Answer 3": "componentDidMount, componentWillUnmount",
+    "Answer 4": "componentDidMount, componentDidUpdate, componentWillUnmount",
+    "Block": "React"
+  },
+  {
+    "№": 21,
+    "Questions": "Що повертає hook useState?",
+    "Answer 1": "Повертає значення зі станом і функцію для його оновлення.",
+    "Answer 2": "Create React App",
+    "Answer 3": "Повертає новий стан",
+    "Answer 4": "Не повертає нічого",
+    "Block": "React"
+  },
+  {
+    "№": 22,
+    "Questions": "У якому методі краще прибирати за собою: слухачі, таймери, HTTP-запити?",
+    "Answer 1": "getSnapshotBeforeUpdate",
+    "Answer 2": "componentWillUnmount",
+    "Answer 3": "render",
+    "Answer 4": "componentDidUpdate",
+    "Block": "React"
+  },
+  {
+    "№": 23,
+    "Questions": "Метод setState() асинхронний?",
+    "Answer 1": "yes",
+    "Answer 2": "no",
+    "Block": "React"
+  },
+  {
+    "№": 24,
+    "Questions": "Зміна state компонента вплине на його батьківський , сусідній чи будь-який інший компонент додатка?",
+    "Answer 1": "можливо вплине, можливо ні",
+    "Answer 2": "вплине на всі вказані у питанні копмоненти",
+    "Answer 3": "на сам компонент і на його дочірні елементи",
+    "Answer 4": "зміна state ні на що не впливає",
+    "Block": "React"
+  },
+  {
+    "№": 25,
+    "Questions": "Коли компоненти створюються як класи метод render() повертає...",
+    "Answer 1": "HTML",
+    "Answer 2": "true/false",
+    "Answer 3": "null",
+    "Answer 4": "JSX-розмітку",
+    "Block": "React"
+  },
+  {
+    "№": 26,
+    "Questions": "...— це синтаксична нотація для JavaScript XML (XML-подібне розширення синтаксису для ECMAScript)",
+    "Answer 1": "JSX",
+    "Answer 2": "Node",
+    "Answer 3": "WebPack",
+    "Answer 4": "React",
+    "Block": "React"
+  },
+  {
+    "№": 27,
+    "Questions": "Деякі компоненти не знають своїх нащадків наперед. Який спеціальний проп потрібно використовувати для цих компонентів?",
+    "Answer 1": "type",
+    "Answer 2": "children",
+    "Answer 3": "props",
+    "Answer 4": "args",
+    "Block": "React"
+  },
+  {
+    "№": 28,
+    "Questions": "Навіщо використовується рядковий проп key (ключ)?",
+    "Answer 1": "для створення id елементів",
+    "Answer 2": "для індексації масиву",
+    "Answer 3": "щоб уникнути перестворення всіх елементів колекції при змінах",
+    "Answer 4": "можна не використовувати",
+    "Block": "React"
+  },
+  {
+    "№": 29,
+    "Questions": "Якщо передано лише ім'я пропсу - це Boolean , значення за замовчуванням ...",
+    "Answer 1": "undefined",
+    "Answer 2": "null",
+    "Answer 3": false,
+    "Answer 4": true,
+    "Block": "React"
+  },
+  {
+    "№": 30,
+    "Questions": "Чому react не реактивний?",
+    "Answer 1": "використовуючи hooks react стає реактивним",
+    "Answer 2": "тому, що ставить в чергу повторний рендер компонента",
+    "Answer 3": "тому, що сталася помилка під час написання react",
+    "Block": "React"
+  },
+  null,
+  {
+    "№": "Node.js"
+  },
+  {
+    "№": 1,
+    "Questions": "Завантажити образ Docker допоможе команда ...",
+    "Answer 1": "docker run",
+    "Answer 2": "docker pull",
+    "Answer 3": "docker commit",
+    "Answer 4": "docker ps",
+    "Block": "Node.js"
+  },
+  {
+    "№": 2,
+    "Questions": "Чи вірним є твердження:  multer ((middleware фреймворка Express) не обробляє жодний інший тип форм, крім multipart/form-data?",
+    "Answer 1": "Так",
+    "Answer 2": "Ні",
+    "Block": "Node.js"
+  },
+  {
+    "№": 3,
+    "Questions": "Закритим прийнято називати маршрут ...",
+    "Answer 1": "В обробнику якого відповіль клієнту передається методом res.end()",
+    "Answer 2": "В обробнику якого не викликається наступна функція проміжної обробки (next) ",
+    "Answer 3": "Обробник якого спрацює лише якщо попередньо в middleware функції (проміжному ПЗ) буде успішному пройдена перевірка валідності переданого токена",
+    "Block": "Node.js"
+  },
+  {
+    "№": 4,
+    "Questions": "Чи можна в якості payload-а (складової токена) передавати пароль чи іншу конфіденційну інформацію?",
+    "Answer 1": "Так, ця інформація надійно зашифрована",
+    "Answer 2": "Ні, адже ця інформація може бути легко розшифрована",
+    "Block": "Node.js"
+  },
+  {
+    "№": 5,
+    "Questions": "Чи вірне твердження: URL це ширше поняття і включає у собі URI?",
+    "Answer 1": "Так",
+    "Answer 2": "Ні",
+    "Block": "Node.js"
+  },
+  {
+    "№": 6,
+    "Questions": "Чи вірне твердження: змінні середовища - це локальні змінні, які доступні нашому додатку?",
+    "Answer 1": "Так",
+    "Answer 2": "Ні",
+    "Block": "Node.js"
+  },
+  {
+    "№": 7,
+    "Questions": "В разі запита за маршрутом \"/users/:id\" значення id в обробнику маршрут можна отримати в об'єкті:",
+    "Answer 1": "req.query",
+    "Answer 2": "req.url",
+    "Answer 3": "req.urlparams",
+    "Answer 4": "req.params",
+    "Block": "Node.js"
+  },
+  {
+    "№": 8,
+    "Questions": "Що буде значенням властивості body об'єкта запиту, якщо запит відправлений з порожнім тілом?",
+    "Answer 1": "Порожній об'єкт",
+    "Answer 2": "null",
+    "Answer 3": "undefined",
+    "Answer 4": "Властивості body в об'єкта запиту не буде",
+    "Block": "Node.js"
+  },
+  {
+    "№": 9,
+    "Questions": "Оберіть неіснуючий метод маршрутизації: ",
+    "Answer 1": "app.post()",
+    "Answer 2": "app.all()",
+    "Answer 3": "app.patch()",
+    "Answer 4": "Всі названі у попередніх варіантах методи існують.",
+    "Block": "Node.js"
+  },
+  {
+    "№": 10,
+    "Questions": "До переліку аргументів, переданих в get-запиті після знаку питання ? можна отримати доступ в об'єкті:",
+    "Answer 1": "req.params",
+    "Answer 2": "req.query",
+    "Answer 3": "req.searchparams",
+    "Answer 4": "req.url",
+    "Block": "Node.js"
+  },
+  {
+    "№": 11,
+    "Questions": "middleware функція (проміжне ПЗ) першим аргументом приймає ...",
+    "Answer 1": "Наступну функцію проміжної обробки",
+    "Answer 2": "Об'єкт відповіді",
+    "Answer 3": "Об'єкт запиту",
+    "Block": "Node.js"
+  },
+  {
+    "№": 12,
+    "Questions": "__dirname - це..?",
+    "Answer 1": "Абсолютний шлях до папки, що містить виконуваний скрипт\n",
+    "Answer 2": "Відносний шлях до папки, що містить виконуваний скрипт.\n",
+    "Block": "Node.js"
+  },
+  {
+    "№": 13,
+    "Questions": "Для видалення файлу використовується метод..",
+    "Answer 1": "fs.unlink",
+    "Answer 2": "fs.close",
+    "Answer 3": "fs.unwatchFile",
+    "Answer 4": "fs.deleteFile",
+    "Block": "Node.js"
+  },
+  {
+    "№": 14,
+    "Questions": "Якої категорії модулів не існує?",
+    "Answer 1": "Файлові (file modules)",
+    "Answer 2": "Загальні (common modules)",
+    "Answer 3": "Базові (core modules)",
+    "Answer 4": "npm-модулі (npm modules)",
+    "Block": "Node.js"
+  },
+  {
+    "№": 15,
+    "Questions": "Оберіть хибне твердження стосовно об'єкта Global ",
+    "Answer 1": " Об'єкт Global - це аналог об'єкта window із браузера",
+    "Answer 2": "Глобальними можуть бути в т.ч. і функції",
+    "Answer 3": "Щоб зробити змінну глобальною, треба оголосити її як властивість об'єкту Global",
+    "Answer 4": "Щоб отримати доступ до глобальної змінної, обов'язково слід вказати слово global (наприклад, global.name) ",
+    "Block": "Node.js"
+  },
+  {
+    "№": 16,
+    "Questions": "Схеми Mongoose підтримують параметр часових позначок. Якщо встановити timestamps: true, Mongoose додасть до схеми дві властивості - createdAt та updatedAt. Чи можна змінити назви цих властивостей?",
+    "Answer 1": "Так ",
+    "Answer 2": "Ні",
+    "Block": "Node.js"
+  },
+  {
+    "№": 17,
+    "Questions": "При роботі з Mongoose  окремим полям документів (об'єктів) можна призначити індекс. Це робиться з метою: ",
+    "Answer 1": "Пришвидшення пошуку по цим полям",
+    "Answer 2": "Реалізації подальшої аналітики по цим полям ",
+    "Answer 3": "Обидва варіанти вірні",
+    "Answer 4": "Жоден з варіантів не є вірним",
+    "Block": "Node.js"
+  },
+  {
+    "№": 18,
+    "Questions": "Метод res.jsonp() використовується для ...",
+    "Answer 1": "Завершення процесу відповіді",
+    "Answer 2": "Надсилання файлу у вигляді потоку відповідей",
+    "Answer 3": "Надсилання відповіді JSON з підтримкою JSONP",
+    "Answer 4": "Такого методу не існує",
+    "Block": "Node.js"
+  },
+  {
+    "№": 19,
+    "Questions": "Успішний POST запит в загальному випадку завершується статусом:",
+    "Answer 1": "200 OK",
+    "Answer 2": "201 Created",
+    "Answer 3": "202 Accepted",
+    "Answer 4": "204 No Content",
+    "Block": "Node.js"
+  },
+  {
+    "№": 20,
+    "Questions": "Чи вірне твердження: функцію next (третій аргумент middleware функції) можна назвати як завгодно, але за домовленістю вона завжди називається «next»?",
+    "Answer 1": "Так ",
+    "Answer 2": "Ні",
+    "Block": "Node.js"
+  },
+  {
+    "№": 21,
+    "Questions": "Що повертає метод path.basename()?",
+    "Answer 1": "Назву файлу з розширенням",
+    "Answer 2": "Назву файла без розширення",
+    "Answer 3": "Назву файла з розширенням або без такого - залежно від переданих аргументів",
+    "Answer 4": "Жодна відповідь не є вірною",
+    "Block": "Node.js"
+  },
+  {
+    "№": 22,
+    "Questions": "Якого методу об'єкту process не існує?",
+    "Answer 1": "process.chdir() ",
+    "Answer 2": "process.nextTick()",
+    "Answer 3": "process.close() ",
+    "Answer 4": "process.kill() ",
+    "Block": "Node.js"
+  },
+  {
+    "№": 23,
+    "Questions": "Чи можна функцію проміжного ПЗ express.static викликатикілька разів, наприклад:",
+    "Code": "app.use(express.static('public'))\napp.use(express.static('files'))",
+    "Answer 1": "Так",
+    "Answer 2": "НІ",
+    "Block": "Node.js"
+  },
+  {
+    "№": 24,
+    "Questions": "Об'єкт файла, завантаженого за допомогою multer, містить властивість originalname, яка зберігає інформацію про ...?",
+    "Answer 1": "Ім'я файлу без каталогу, де буде збережено файл.",
+    "Answer 2": "Ім'я файлу на комп'ютері користувача",
+    "Answer 3": "Каталог, де буде збережено файл",
+    "Answer 4": "Повний шлях до завантажуваного файлу",
+    "Block": "Node.js"
+  },
+  {
+    "№": 25,
+    "Questions": "Для пошуку в колекції бази даних MongoDB об'єктів, значення окремої властивості яких менше або дорівнює певному показнику, використовується оператор ...?",
+    "Answer 1": "$gt",
+    "Answer 2": "$gte",
+    "Answer 3": "$lte",
+    "Answer 4": "$lt",
+    "Block": "Node.js"
+  },
+  {
+    "№": 26,
+    "Questions": "Чи вірне твердження: статус 204 No content призначений для опису відповіді без тіла, за замовчуванням така відповідь не кешується?",
+    "Answer 1": "Так ",
+    "Answer 2": "Ні",
+    "Block": "Node.js"
+  },
+  {
+    "№": 27,
+    "Questions": "Чи вірним є твердження: метод app.listen() повертає об’єкт http.Server?",
+    "Answer 1": "Так",
+    "Answer 2": "Ні",
+    "Block": "Node.js"
+  },
+  {
+    "№": 28,
+    "Questions": "Аргументом методу use екземпляру express може бути ...",
+    "Answer 1": "Одна middleware функція",
+    "Answer 2": "Кілька middleware функцій, розділений комою",
+    "Answer 3": "Масив middleware функцій",
+    "Answer 4": "Всі варіанти відповідей вірні",
+    "Block": "Node.js"
+  },
+  {
+    "№": 29,
+    "Questions": "Що поверне метод fs.readdir при спробі прочитати порожню директорію?",
+    "Answer 1": "Порожній об'єкт",
+    "Answer 2": "Порожній масив",
+    "Answer 3": "Порожній псевдомасив",
+    "Answer 4": "null",
+    "Block": "Node.js"
+  },
+  {
+    "№": 30,
+    "Questions": "Яке твердження про ідемпотентні методи HTTP є хибним: ",
+    "Answer 1": "Коди статусу, що повертаються за ідемпотентними запитами, не повинні відрізнятися",
+    "Answer 2": "Ідемпотентність іноді вживають як синонім безпечності методу, водночас не всі ідемпотентні методи є безпечними",
+    "Answer 3": "Метод HTTP є ідемпотентним, якщо повторний ідентичний запит, зроблений один або кілька разів поспіль, має той самий ефект, що не змінює стан сервера",
+    "Answer 4": "Всі наведені тверження є вірними",
+    "Block": "Node.js"
+  }
+]

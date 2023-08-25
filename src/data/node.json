@@ -1,0 +1,385 @@
+[
+  {
+    "№": 1,
+    "question": "Завантажити образ Docker допоможе команда ...",
+    "answers": [
+      { "id": 1, "value": "docker run", "correct": false },
+      { "id": 2, "value": "docker pull", "correct": false },
+      { "id": 3, "value": "docker commit", "correct": false },
+      { "id": 4, "value": "docker ps", "correct": true }
+    ]
+  },
+  {
+    "№": 2,
+    "question": "Чи вірним є твердження:  multer ((middleware фреймворка Express) не обробляє жодний інший тип форм, крім multipart/form-data?",
+    "answers": [
+      { "id": 1, "value": "Так", "correct": false },
+      { "id": 2, "value": "Ні", "correct": false }
+    ]
+  },
+  {
+    "№": 3,
+    "question": "Закритим прийнято називати маршрут ...",
+    "answers": [
+      {
+        "id": 1,
+        "value": "В обробнику якого відповіль клієнту передається методом res.end()",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "В обробнику якого не викликається наступна функція проміжної обробки (next) ",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "Обробник якого спрацює лише якщо попередньо в middleware функції (проміжному ПЗ) буде успішному пройдена перевірка валідності переданого токена",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "№": 4,
+    "question": "Чи можна в якості payload-а (складової токена) передавати пароль чи іншу конфіденційну інформацію?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "Так, ця інформація надійно зашифрована",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "Ні, адже ця інформація може бути легко розшифрована",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "№": 5,
+    "question": "Чи вірне твердження: URL це ширше поняття і включає у собі URI?",
+    "answers": [
+      { "id": 1, "value": "Так", "correct": false },
+      { "id": 2, "value": "Ні", "correct": false }
+    ]
+  },
+  {
+    "№": 6,
+    "question": "Чи вірне твердження: змінні середовища - це локальні змінні, які доступні нашому додатку?",
+    "answers": [
+      { "id": 1, "value": "Так", "correct": false },
+      { "id": 2, "value": "Ні", "correct": false }
+    ]
+  },
+  {
+    "№": 7,
+    "question": "В разі запита за маршрутом \"/users/:id\" значення id в обробнику маршрут можна отримати в об'єкті:",
+    "answers": [
+      { "id": 1, "value": "req.query", "correct": false },
+      { "id": 2, "value": "req.url", "correct": false },
+      { "id": 3, "value": "req.urlparams", "correct": false },
+      { "id": 4, "value": "req.params", "correct": true }
+    ]
+  },
+  {
+    "№": 8,
+    "question": "Що буде значенням властивості body об'єкта запиту, якщо запит відправлений з порожнім тілом?",
+    "answers": [
+      { "id": 1, "value": "Порожній об'єкт", "correct": false },
+      { "id": 2, "value": "null", "correct": false },
+      { "id": 3, "value": "undefined", "correct": false },
+      {
+        "id": 4,
+        "value": "Властивості body в об'єкта запиту не буде",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "№": 9,
+    "question": "Оберіть неіснуючий метод маршрутизації: ",
+    "answers": [
+      { "id": 1, "value": "app.post()", "correct": false },
+      { "id": 2, "value": "app.all()", "correct": false },
+      { "id": 3, "value": "app.patch()", "correct": false },
+      {
+        "id": 4,
+        "value": "Всі названі у попередніх варіантах методи існують.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "№": 10,
+    "question": "До переліку аргументів, переданих в get-запиті після знаку питання ? можна отримати доступ в об'єкті:",
+    "answers": [
+      { "id": 1, "value": "req.params", "correct": false },
+      { "id": 2, "value": "req.query", "correct": false },
+      { "id": 3, "value": "req.searchparams", "correct": false },
+      { "id": 4, "value": "req.url", "correct": true }
+    ]
+  },
+  {
+    "№": 11,
+    "question": "middleware функція (проміжне ПЗ) першим аргументом приймає ...",
+    "answers": [
+      {
+        "id": 1,
+        "value": "Наступну функцію проміжної обробки",
+        "correct": false
+      },
+      { "id": 2, "value": "Об'єкт відповіді", "correct": false },
+      { "id": 3, "value": "Об'єкт запиту", "correct": false }
+    ]
+  },
+  {
+    "№": 12,
+    "question": "__dirname - це..?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "Абсолютний шлях до папки, що містить виконуваний скрипт\n",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "Відносний шлях до папки, що містить виконуваний скрипт.\n",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "№": 13,
+    "question": "Для видалення файлу використовується метод..",
+    "answers": [
+      { "id": 1, "value": "fs.unlink", "correct": false },
+      { "id": 2, "value": "fs.close", "correct": false },
+      { "id": 3, "value": "fs.unwatchFile", "correct": false },
+      { "id": 4, "value": "fs.deleteFile", "correct": true }
+    ]
+  },
+  {
+    "№": 14,
+    "question": "Якої категорії модулів не існує?",
+    "answers": [
+      { "id": 1, "value": "Файлові (file modules)", "correct": false },
+      { "id": 2, "value": "Загальні (common modules)", "correct": false },
+      { "id": 3, "value": "Базові (core modules)", "correct": false },
+      { "id": 4, "value": "npm-модулі (npm modules)", "correct": true }
+    ]
+  },
+  {
+    "№": 15,
+    "question": "Оберіть хибне твердження стосовно об'єкта Global ",
+    "answers": [
+      {
+        "id": 1,
+        "value": " Об'єкт Global - це аналог об'єкта window із браузера",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "Глобальними можуть бути в т.ч. і функції",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "Щоб зробити змінну глобальною, треба оголосити її як властивість об'єкту Global",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "value": "Щоб отримати доступ до глобальної змінної, обов'язково слід вказати слово global (наприклад, global.name) ",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "№": 16,
+    "question": "Схеми Mongoose підтримують параметр часових позначок. Якщо встановити timestamps: true, Mongoose додасть до схеми дві властивості - createdAt та updatedAt. Чи можна змінити назви цих властивостей?",
+    "answers": [
+      { "id": 1, "value": "Так", "correct": false },
+      { "id": 2, "value": "Ні", "correct": false }
+    ]
+  },
+  {
+    "№": 17,
+    "question": "При роботі з Mongoose  окремим полям документів (об'єктів) можна призначити індекс. Це робиться з метою: ",
+    "answers": [
+      {
+        "id": 1,
+        "value": "Пришвидшення пошуку по цим полям",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "Реалізації подальшої аналітики по цим полям ",
+        "correct": false
+      },
+      { "id": 3, "value": "Обидва варіанти вірні", "correct": false },
+      { "id": 4, "value": "Жоден з варіантів не є вірним", "correct": true }
+    ]
+  },
+  {
+    "№": 18,
+    "question": "Метод res.jsonp() використовується для ...",
+    "answers": [
+      { "id": 1, "value": "Завершення процесу відповіді", "correct": false },
+      {
+        "id": 2,
+        "value": "Надсилання файлу у вигляді потоку відповідей",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "Надсилання відповіді JSON з підтримкою JSONP",
+        "correct": false
+      },
+      { "id": 4, "value": "Такого методу не існує", "correct": true }
+    ]
+  },
+  {
+    "№": 19,
+    "question": "Успішний POST запит в загальному випадку завершується статусом:",
+    "answers": [
+      { "id": 1, "value": "200 OK", "correct": false },
+      { "id": 2, "value": "201 Created", "correct": false },
+      { "id": 3, "value": "202 Accepted", "correct": false },
+      { "id": 4, "value": "204 No Content", "correct": true }
+    ]
+  },
+  {
+    "№": 20,
+    "question": "Чи вірне твердження: функцію next (третій аргумент middleware функції) можна назвати як завгодно, але за домовленістю вона завжди називається «next»?",
+    "answers": [
+      { "id": 1, "value": "Так", "correct": false },
+      { "id": 2, "value": "Ні", "correct": false }
+    ]
+  },
+  {
+    "№": 21,
+    "question": "Що повертає метод path.basename()?",
+    "answers": [
+      { "id": 1, "value": "Назву файлу з розширенням", "correct": false },
+      { "id": 2, "value": "Назву файла без розширення", "correct": false },
+      {
+        "id": 3,
+        "value": "Назву файла з розширенням або без такого - залежно від переданих аргументів",
+        "correct": false
+      },
+      { "id": 4, "value": "Жодна відповідь не є вірною", "correct": true }
+    ]
+  },
+  {
+    "№": 22,
+    "question": "Якого методу об'єкту process не існує?",
+    "answers": [
+      { "id": 1, "value": "process.chdir() ", "correct": false },
+      { "id": 2, "value": "process.nextTick()", "correct": false },
+      { "id": 3, "value": "process.close() ", "correct": false },
+      { "id": 4, "value": "process.kill() ", "correct": true }
+    ]
+  },
+  {
+    "№": 23,
+    "question": "Чи можна функцію проміжного ПЗ express.static викликатикілька разів, наприклад:",
+    "Code": "app.use(express.static('public'))\napp.use(express.static('files'))",
+    "answers": [
+      { "id": 1, "value": "Так", "correct": false },
+      { "id": 2, "value": "Ні", "correct": false }
+    ]
+  },
+  {
+    "№": 24,
+    "question": "Об'єкт файла, завантаженого за допомогою multer, містить властивість originalname, яка зберігає інформацію про ...?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "Ім'я файлу без каталогу, де буде збережено файл.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "Ім'я файлу на комп'ютері користувача",
+        "correct": false
+      },
+      { "id": 3, "value": "Каталог, де буде збережено файл", "correct": false },
+      {
+        "id": 4,
+        "value": "Повний шлях до завантажуваного файлу",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "№": 25,
+    "question": "Для пошуку в колекції бази даних MongoDB об'єктів, значення окремої властивості яких менше або дорівнює певному показнику, використовується оператор ...?",
+    "answers": [
+      { "id": 1, "value": "$gt", "correct": false },
+      { "id": 2, "value": "$gte", "correct": false },
+      { "id": 3, "value": "$lte", "correct": false },
+      { "id": 4, "value": "$lt", "correct": true }
+    ]
+  },
+  {
+    "№": 26,
+    "question": "Чи вірне твердження: статус 204 No content призначений для опису відповіді без тіла, за замовчуванням така відповідь не кешується?",
+    "answers": [
+      { "id": 1, "value": "Так", "correct": false },
+      { "id": 2, "value": "Ні", "correct": false }
+    ]
+  },
+  {
+    "№": 27,
+    "question": "Чи вірним є твердження: метод app.listen() повертає об’єкт http.Server?",
+    "answers": [
+      { "id": 1, "value": "Так", "correct": false },
+      { "id": 2, "value": "Ні", "correct": false }
+    ]
+  },
+  {
+    "№": 28,
+    "question": "Аргументом методу use екземпляру express може бути ...",
+    "answers": [
+      { "id": 1, "value": "Одна middleware функція", "correct": false },
+      {
+        "id": 2,
+        "value": "Кілька middleware функцій, розділений комою",
+        "correct": false
+      },
+      { "id": 3, "value": "Масив middleware функцій", "correct": false },
+      { "id": 4, "value": "Всі варіанти відповідей вірні", "correct": true }
+    ]
+  },
+  {
+    "№": 29,
+    "question": "Що поверне метод fs.readdir при спробі прочитати порожню директорію?",
+    "answers": [
+      { "id": 1, "value": "Порожній об'єкт", "correct": false },
+      { "id": 2, "value": "Порожній масив", "correct": false },
+      { "id": 3, "value": "Порожній псевдомасив", "correct": false },
+      { "id": 4, "value": "null", "correct": true }
+    ]
+  },
+  {
+    "№": 30,
+    "question": "Яке твердження про ідемпотентні методи HTTP є хибним: ",
+    "answers": [
+      {
+        "id": 1,
+        "value": "Коди статусу, що повертаються за ідемпотентними запитами, не повинні відрізнятися",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "Ідемпотентність іноді вживають як синонім безпечності методу, водночас не всі ідемпотентні методи є безпечними",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "Метод HTTP є ідемпотентним, якщо повторний ідентичний запит, зроблений один або кілька разів поспіль, має той самий ефект, що не змінює стан сервера",
+        "correct": false
+      },
+      { "id": 4, "value": "Всі наведені тверження є вірними", "correct": true }
+    ]
+  }
+]

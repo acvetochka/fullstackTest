@@ -1,0 +1,339 @@
+[
+  {
+    "№": 1,
+    "question": "Подія / action (*опис знаходимо в рамках redux)",
+    "answers": [
+      { "id": 1, "value": "визов метода useState()", "correct": false },
+      { "id": 2, "value": "Деяка подія / event", "correct": false },
+      { "id": 3, "value": "відправка даних на backend", "correct": false },
+      { "id": 4, "value": "об'єкт, який описує, що сталося", "correct": true }
+    ]
+  },
+  {
+    "№": 2,
+    "question": "За допомогою якого методу відправляються подія / action?",
+    "answers": [
+      { "id": 1, "value": "dispatch(action)", "correct": false },
+      { "id": 2, "value": "callback(dispatch)", "correct": false },
+      { "id": 3, "value": "reducers(action)", "correct": false },
+      { "id": 4, "value": "додаткового методу не потрібно", "correct": true }
+    ]
+  },
+  {
+    "№": 3,
+    "question": "Скільки потрібно викликів ReactDOM.createRoot(elem).render() щоб програма працювала?",
+    "answers": [
+      { "id": 1, "value": "залежить від розміру програми", "correct": false },
+      { "id": 2, "value": "3-5", "correct": false },
+      {
+        "id": 3,
+        "value": "достатньо використовувати лише один виклик",
+        "correct": false
+      },
+      { "id": 4, "value": "не потрібно взагалі", "correct": true }
+    ]
+  },
+  {
+    "№": 4,
+    "question": "Метод ReactDOM.createRoot(elem).render() використовується для того, щоб ...",
+    "answers": [
+      { "id": 1, "value": "видалити елемент", "correct": false },
+      { "id": 2, "value": "змінити елемент", "correct": false },
+      { "id": 3, "value": "цей метод не використовується", "correct": false },
+      { "id": 4, "value": "рендерити елемент", "correct": true }
+    ]
+  },
+  {
+    "№": 5,
+    "question": "props може бути null або порожній об'єкт?",
+    "answers": [
+      { "id": 1, "value": "yes", "correct": false },
+      { "id": 2, "value": "no", "correct": false }
+    ]
+  },
+  {
+    "№": 6,
+    "question": "React.createElement(type, [props], [...children]), props це...?",
+    "answers": [
+      { "id": 1, "value": "ім'я вбудованого React-елемента", "correct": false },
+      {
+        "id": 2,
+        "value": "об'єкт, що містить HTML-атрибути та кастомні властивості",
+        "correct": false
+      },
+      { "id": 3, "value": "масив значень", "correct": false },
+      { "id": 4, "value": "довільна кількість аргументів", "correct": true }
+    ]
+  },
+  {
+    "№": 7,
+    "question": "useEffect() може приймати два аргументи:",
+    "answers": [
+      { "id": 1, "value": "useState, redux", "correct": false },
+      { "id": 2, "value": "useState, state", "correct": false },
+      { "id": 3, "value": "callback, масив залежностей", "correct": false },
+      { "id": 4, "value": "callback, promise", "correct": true }
+    ]
+  },
+  {
+    "№": 8,
+    "question": "Можна використовувати hooks за межами функціональних компонентів?",
+    "answers": [
+      { "id": 1, "value": "yes", "correct": false },
+      { "id": 2, "value": "no", "correct": false }
+    ]
+  },
+  {
+    "№": 9,
+    "question": "Можна змінювати state безпосередньо за посиланням. Особливо при роботі з масивами, об'єктами?",
+    "answers": [
+      { "id": 1, "value": "yes", "correct": false },
+      { "id": 2, "value": "no", "correct": false }
+    ]
+  },
+  {
+    "№": 10,
+    "question": "Об'єкт-стану state можна змінювати розробником напряму?",
+    "answers": [
+      { "id": 1, "value": "yes", "correct": false },
+      { "id": 2, "value": "no", "correct": false }
+    ]
+  },
+  {
+    "№": 11,
+    "question": "Коли змінюється state або props компонента відбувається...",
+    "answers": [
+      { "id": 1, "value": "те, що вкаже розробник", "correct": false },
+      {
+        "id": 2,
+        "value": "оновлення батьківського компонента",
+        "correct": false
+      },
+      { "id": 3, "value": "re-render компонента", "correct": false },
+      { "id": 4, "value": "нічого не відбувається", "correct": true }
+    ]
+  },
+  {
+    "№": 12,
+    "question": "Значення null, undefined або false рендеряться у розмітці?",
+    "answers": [
+      { "id": 1, "value": "yes", "correct": false },
+      { "id": 2, "value": "no", "correct": false }
+    ]
+  },
+  {
+    "№": 13,
+    "question": "Ім'я react компонента обов'язково має починатися з великої літери?",
+    "answers": [
+      { "id": 1, "value": "yes", "correct": false },
+      { "id": 2, "value": "no", "correct": false }
+    ]
+  },
+  {
+    "№": 14,
+    "question": "Скільки потрібно викликів ReactDOM.render() щоб програма працювала?",
+    "answers": [
+      { "id": 1, "value": "3- 5", "correct": false },
+      { "id": 2, "value": "залежить від розміру програми", "correct": false },
+      {
+        "id": 3,
+        "value": "достатньо використовувати лише один виклик",
+        "correct": false
+      },
+      { "id": 4, "value": "не потрібно взагалі", "correct": true }
+    ]
+  },
+  {
+    "№": 15,
+    "question": "Метод ReactDOM.render() використовується для того, щоб ...",
+    "answers": [
+      { "id": 1, "value": "видалити елемент", "correct": false },
+      { "id": 2, "value": "рендерити елемент", "correct": false },
+      { "id": 3, "value": "змінити елемент", "correct": false },
+      { "id": 4, "value": "цей метод не використовується", "correct": true }
+    ]
+  },
+  {
+    "№": 16,
+    "question": "reducer чистий, він обчислює наступний стан і повертає його, без сюрпризів, жодних побічних ефектів, ніяких мутацій",
+    "answers": [
+      { "id": 1, "value": "yes", "correct": false },
+      { "id": 2, "value": "no", "correct": false }
+    ]
+  },
+  {
+    "№": 17,
+    "question": "Повертає об'єкт розташування, що представляє поточну URL-адресу, при переході на нову або оновленні поточної URL-адреси",
+    "answers": [
+      { "id": 1, "value": "useMatch", "correct": false },
+      { "id": 2, "value": "useLocation", "correct": false },
+      { "id": 3, "value": "useRouteMatch", "correct": false },
+      { "id": 4, "value": "useRoute", "correct": true }
+    ]
+  },
+  {
+    "№": 18,
+    "question": "Функція яку повертаємо з useEffect виконується при розмонтуванні компонента, або взагалі перед кожним викликом useEffect",
+    "answers": [
+      { "id": 1, "value": "yes", "correct": false },
+      { "id": 2, "value": "no", "correct": false }
+    ]
+  },
+  {
+    "№": 19,
+    "question": "Якщо не передати масив залежностей, useEffect виконуватиметься",
+    "answers": [
+      { "id": 1, "value": "виконуватися не буде", "correct": false },
+      { "id": 2, "value": "при пешому рендері", "correct": false },
+      { "id": 3, "value": "на кожному рендері компонента", "correct": false },
+      { "id": 4, "value": "при розмонтуванні компонента", "correct": true }
+    ]
+  },
+  {
+    "№": 20,
+    "question": "За допомогою hooks useEffect у компонентах-функціях можна виконувати «ефекти», змоделювавши роботу методів ...",
+    "answers": [
+      { "id": 1, "value": "componentDidMount", "correct": false },
+      {
+        "id": 2,
+        "value": "componentDidUpdate, componentWillUnmount",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "componentDidMount, componentWillUnmount",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "value": "componentDidMount, componentDidUpdate, componentWillUnmount",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "№": 21,
+    "question": "Що повертає hook useState?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "Повертає значення зі станом і функцію для його оновлення.",
+        "correct": false
+      },
+      { "id": 2, "value": "Create React App", "correct": false },
+      { "id": 3, "value": "Повертає новий стан", "correct": false },
+      { "id": 4, "value": "Не повертає нічого", "correct": true }
+    ]
+  },
+  {
+    "№": 22,
+    "question": "У якому методі краще прибирати за собою: слухачі, таймери, HTTP-запити?",
+    "answers": [
+      { "id": 1, "value": "getSnapshotBeforeUpdate", "correct": false },
+      { "id": 2, "value": "componentWillUnmount", "correct": false },
+      { "id": 3, "value": "render", "correct": false },
+      { "id": 4, "value": "componentDidUpdate", "correct": true }
+    ]
+  },
+  {
+    "№": 23,
+    "question": "Метод setState() асинхронний?",
+    "answers": [
+      { "id": 1, "value": "yes", "correct": false },
+      { "id": 2, "value": "no", "correct": false }
+    ]
+  },
+  {
+    "№": 24,
+    "question": "Зміна state компонента вплине на його батьківський , сусідній чи будь-який інший компонент додатка?",
+    "answers": [
+      { "id": 1, "value": "можливо вплине, можливо ні", "correct": false },
+      {
+        "id": 2,
+        "value": "вплине на всі вказані у питанні копмоненти",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "на сам компонент і на його дочірні елементи",
+        "correct": false
+      },
+      { "id": 4, "value": "зміна state ні на що не впливає", "correct": true }
+    ]
+  },
+  {
+    "№": 25,
+    "question": "Коли компоненти створюються як класи метод render() повертає...",
+    "answers": [
+      { "id": 1, "value": "HTML", "correct": false },
+      { "id": 2, "value": "true/false", "correct": false },
+      { "id": 3, "value": "null", "correct": false },
+      { "id": 4, "value": "JSX-розмітку", "correct": true }
+    ]
+  },
+  {
+    "№": 26,
+    "question": "...— це синтаксична нотація для JavaScript XML (XML-подібне розширення синтаксису для ECMAScript)",
+    "answers": [
+      { "id": 1, "value": "JSX", "correct": false },
+      { "id": 2, "value": "Node", "correct": false },
+      { "id": 3, "value": "WebPack", "correct": false },
+      { "id": 4, "value": "React", "correct": true }
+    ]
+  },
+  {
+    "№": 27,
+    "question": "Деякі компоненти не знають своїх нащадків наперед. Який спеціальний проп потрібно використовувати для цих компонентів?",
+    "answers": [
+      { "id": 1, "value": "type", "correct": false },
+      { "id": 2, "value": "children", "correct": false },
+      { "id": 3, "value": "props", "correct": false },
+      { "id": 4, "value": "args", "correct": true }
+    ]
+  },
+  {
+    "№": 28,
+    "question": "Навіщо використовується рядковий проп key (ключ)?",
+    "answers": [
+      { "id": 1, "value": "для створення id елементів", "correct": false },
+      { "id": 2, "value": "для індексації масиву", "correct": false },
+      {
+        "id": 3,
+        "value": "щоб уникнути перестворення всіх елементів колекції при змінах",
+        "correct": false
+      },
+      { "id": 4, "value": "можна не використовувати", "correct": true }
+    ]
+  },
+  {
+    "№": 29,
+    "question": "Якщо передано лише ім'я пропсу - це Boolean , значення за замовчуванням ...",
+    "answers": [
+      { "id": 1, "value": "undefined", "correct": false },
+      { "id": 2, "value": "null", "correct": false },
+      { "id": 3, "value": false, "correct": false },
+      { "id": 4, "value": true, "correct": true }
+    ]
+  },
+  {
+    "№": 30,
+    "question": "Чому react не реактивний?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "використовуючи hooks react стає реактивним",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "тому, що ставить в чергу повторний рендер компонента",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "тому, що сталася помилка під час написання react",
+        "correct": false
+      }
+    ]
+  }
+]

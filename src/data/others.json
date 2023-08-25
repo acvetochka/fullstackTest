@@ -1,0 +1,226 @@
+[
+  {
+    "№": 6,
+    "Questions": "Яка мінімальна кількість кольорів повинна бути вказана у градієнті?",
+    "Answer 1": 1,
+    "Answer 2": 2,
+    "Answer 3": 3,
+    "Answer 4": 4,
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 7,
+    "Questions": "Яка CSS-властивість визначає зовнішній відступ для елемента?",
+    "Answer 1": "border",
+    "Answer 2": "padding",
+    "Answer 3": "margin",
+    "Answer 4": "width",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 8,
+    "Questions": "Виберіть правильно записаний клас класу для елемента",
+    "Code": " <div class=”box”></div>",
+    "Answer 1": "div > box",
+    "Answer 2": ".box",
+    "Answer 3": "div + box",
+    "Answer 4": "box",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 9,
+    "Questions": "За допомогою якого символу оголошується селектор id?",
+    "Answer 1": "#",
+    "Answer 2": "&",
+    "Answer 3": "*",
+    "Answer 4": ">",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 10,
+    "Questions": "Скільки осей у flex-контейнері?",
+    "Answer 1": 1,
+    "Answer 2": 2,
+    "Answer 3": 3,
+    "Answer 4": 4,
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 11,
+    "Questions": "Які елементи можна вкладати у ul/ol?",
+    "Answer 1": "тільки блочні",
+    "Answer 2": "li обернутий в div",
+    "Answer 3": "Будь -які",
+    "Answer 4": "тільки li",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 12,
+    "Questions": "Сімейство шрифту із засічками",
+    "Answer 1": "sans-serif",
+    "Answer 2": "monospace",
+    "Answer 3": "serif",
+    "Answer 4": "cursive",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 13,
+    "Questions": "За що відповідає HTML?",
+    "Answer 1": "за структуру і зміст",
+    "Answer 2": "за зовнішній вигляд",
+    "Answer 3": "за функціонал",
+    "Answer 4": "всі варіанти вірні",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 14,
+    "Questions": "Що таке тег?",
+    "Answer 1": "пояснення у вихідному коді",
+    "Answer 2": "елемент мови розмітки гіпертексту",
+    "Answer 3": "значення власивості для оформлення зовнішнього вигляду",
+    "Answer 4": "найбільший будівельний блок",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 15,
+    "Questions": "Яка властивість не впливає на блокову модель елемента?",
+    "Answer 1": "border",
+    "Answer 2": "padding",
+    "Answer 3": "margin",
+    "Answer 4": "outline",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 16,
+    "Questions": "Блоковий елемент від рядкового відрізняється тим, що...",
+    "Answer 1": "Не повинен починатись з нового рядка",
+    "Answer 2": "Ширина визначається контентом",
+    "Answer 3": "Займає всю доступну ширину батька",
+    "Answer 4": "Всередині не можна розміщувати інший блоковий елемент",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 17,
+    "Questions": "Фон елемента дефолту поширюється на",
+    "Answer 1": "paddind + content",
+    "Answer 2": "margin + padding + content",
+    "Answer 3": "margin + content",
+    "Answer 4": "content",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 18,
+    "Questions": "Навіщо потрібен атрибут placeholder",
+    "Answer 1": "автозаповнення",
+    "Answer 2": "текст-підсказка",
+    "Answer 3": "слугує для валідації",
+    "Answer 4": "взагалі не потрібен",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 19,
+    "Questions": "Яка різниця між animation та transition",
+    "Answer 1": "анімацію не можна перевести в статус паузи",
+    "Answer 2": "різний синтаксис ",
+    "Answer 3": "у animation є проміжні стани",
+    "Answer 4": "ніякий",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 20,
+    "Questions": "Яка властивість є обов'язковою при створенні before та after",
+    "Answer 1": "widnh",
+    "Answer 2": "position",
+    "Answer 3": "display",
+    "Answer 4": "content",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 21,
+    "Questions": "Блокові елементи приймають ширину...",
+    "Answer 1": "За доступною шириною",
+    "Answer 2": "За вмістом",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 22,
+    "Questions": "За умовчанням, значення властивості align-items для флекс-контейнера буде...",
+    "Answer 1": "flex-start",
+    "Answer 2": "stretch",
+    "Answer 3": "center",
+    "Answer 4": "baseline",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 23,
+    "Questions": "Який оператор позначає логічне \"і\" для @media",
+    "Answer 1": ",",
+    "Answer 2": "screen",
+    "Answer 3": "and",
+    "Answer 4": "пробіл",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 24,
+    "Questions": "Яка властивість НЕ змінює порядок виведення елементів на сторінці",
+    "Answer 1": "wrap-rewerse",
+    "Answer 2": "row-rewerse",
+    "Answer 3": "order",
+    "Answer 4": "column",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 25,
+    "Questions": "Тег <datalist> створює...",
+    "Answer 1": "список автозаповнення",
+    "Answer 2": "випадаючий список",
+    "Answer 3": "поле для заповнення",
+    "Answer 4": "контекстне меню",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 26,
+    "Questions": "З яких частин складається форма?",
+    "Answer 1": "системою управління контейнтом та серверу",
+    "Answer 2": "інтерфейсу користувача і бекенду",
+    "Answer 3": "інтерфейсу адміна і фронтенду",
+    "Answer 4": "інтерфейсу користувача і клауд-сервісів",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 27,
+    "Questions": "Без якої властивості не можливо створити псевдоелемент ::before",
+    "Answer 1": "position",
+    "Answer 2": "display",
+    "Answer 3": "content",
+    "Answer 4": "width/height",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 28,
+    "Questions": "Для наслідування в SASS використовується директива",
+    "Answer 1": "@mixin",
+    "Answer 2": "@include",
+    "Answer 3": "@import",
+    "Answer 4": "@extended",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 29,
+    "Questions": "Який атрибут має бути однаково заповнений у групи радіо-батонів, щоб браузер зрозумів що це група?",
+    "Answer 1": "name",
+    "Answer 2": "value",
+    "Answer 3": "type",
+    "Answer 4": "checked",
+    "Block": "HTML+CSS"
+  },
+  {
+    "№": 30,
+    "Questions": "Вкажіть помилкові параметри для градієнта",
+    "Answer 1": "linear-gradient(70deg, blue, pink)",
+    "Answer 2": "linear-gradient(to center, blue)",
+    "Answer 3": "linear-gradient(to bottom right, blue, pink)",
+    "Answer 4": "radial-gradient(at center, var(--start-color) 10%, var(--end-color) 50%)",
+    "Block": "HTML+CSS"
+  }
+]

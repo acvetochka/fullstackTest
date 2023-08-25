@@ -1,0 +1,418 @@
+[
+  {
+    "№": 1,
+    "question": "Що виведеться в консоль?",
+    "code": "console.log(Number(null))",
+    "answers": [
+      { "id": 1, "value": "0", "correct": true },
+      { "id": 2, "value": "1", "correct": false },
+      { "id": 3, "value": "NaN", "correct": false },
+      { "id": 4, "value": "Error", "correct": false }
+    ]
+  },
+  {
+    "№": 2,
+    "question": "Що буде виведено у консоль?",
+    "code": "const value = 5;\nconst value = 'bunny';\nconsole.log(value);",
+    "answers": [
+      { "id": 1, "value": "bunny", "correct": false },
+      {
+        "id": 2,
+        "value": "Помилка 'Duplicate declaration \"value\"'",
+        "correct": true
+      },
+      { "id": 3, "value": "undefined", "correct": false },
+      { "id": 4, "value": "5", "correct": false }
+    ]
+  },
+  {
+    "№": 3,
+    "question": "Що буде виведено у консоль?",
+    "code": "const value;<br/>value = 10;<br/>console.log(value);",
+    "answers": [
+      { "id": 1, "value": "10", "correct": false },
+      { "id": 2, "value": "undefined", "correct": false },
+      {
+        "id": 3,
+        "value": "Помилка 'Missing initializer in const declaration'",
+        "correct": true
+      },
+      {
+        "id": 4,
+        "value": "Помилка 'ReferenceError: value is not defined'",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "№": 4,
+    "question": "Що повертає метод Array.prototype.filter()?",
+    "answers": [
+      { "id": 1, "value": "Завжди масив", "correct": true },
+      {
+        "id": 2,
+        "value": "Масив, якщо результат роботи містить більше одного елемента",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "Один елемент, якщо він пройшов фільтрацію",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "№": 5,
+    "question": "Що з перерахованого не є хибним (Falsy) значенням?",
+    "answers": [
+      { "id": 1, "value": "null", "correct": false },
+      { "id": 2, "value": "undefined", "correct": false },
+      { "id": 3, "value": "0", "correct": false },
+      { "id": 4, "value": "\"false\"", "correct": true }
+    ]
+  },
+  {
+    "№": 6,
+    "question": "Який спосіб масиву використовується для пошуку унікального елемента колекції?",
+    "answers": [
+      { "id": 1, "value": "Array.prototype.reduce()", "correct": false },
+      { "id": 2, "value": "Array.prototype.filter()", "correct": false },
+      { "id": 3, "value": "Array.prototype.map()", "correct": false },
+      { "id": 4, "value": "Array.prototype.find()", "correct": true }
+    ]
+  },
+  {
+    "№": 7,
+    "question": "Метод Array.prototype.map() завжди поверне масив такої ж довжини як вихідний?",
+    "answers": [
+      { "id": 1, "value": "Так", "correct": false },
+      { "id": 2, "value": "Ні", "correct": false }
+    ]
+  },
+  {
+    "№": 8,
+    "question": "Що робить метод Array.prototype.filter()?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "Перебирає масив, записуючи до нового масиву ті елементи вихідного, на ітерації яких callback-функція повернула false",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "Перебирає масив, записуючи до нового масиву ті елементи вихідного, на ітерації яких callback-функція повернула false",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "№": 9,
+    "question": "\nЯк отримати список усіх ключів об'єкта obj?",
+    "answers": [
+      { "id": 1, "value": "obj.keys", "correct": false },
+      { "id": 2, "value": "obj.keys()", "correct": false },
+      { "id": 3, "value": "Object.keys(obj)", "correct": false }
+    ]
+  },
+  {
+    "№": 10,
+    "question": "Який метод JSON перетворює об'єкт на рядок?",
+    "answers": [
+      { "id": 1, "value": "JSON.parse()", "correct": false },
+      { "id": 2, "value": "JSON.stringify()", "correct": false },
+      { "id": 3, "value": "JSON.convert()", "correct": false },
+      { "id": 4, "value": "JSON.toString()", "correct": false }
+    ]
+  },
+  {
+    "№": 11,
+    "question": "Виберіть не існуючий HTTP-метод\"",
+    "answers": [
+      { "id": 1, "value": "GRAB", "correct": false },
+      { "id": 2, "value": "GET", "correct": false },
+      { "id": 3, "value": "PUT", "correct": false },
+      { "id": 4, "value": "DELETE", "correct": false }
+    ]
+  },
+  {
+    "№": 12,
+    "question": "Який символ URL вказує на початок рядка параметрів запиту?",
+    "answers": [
+      { "id": 1, "value": "://", "correct": false },
+      { "id": 2, "value": "&", "correct": false },
+      { "id": 3, "value": ":", "correct": false },
+      { "id": 4, "value": "?", "correct": false }
+    ]
+  },
+  {
+    "№": 13,
+    "question": "Які типи даних підтримує Javascript?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "Числа, рядки, логічний тип, об'єкти, масиви, undefined",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "Числа, рядки, логічний тип, об'єкти, масиви, null",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "Числа, рядки, логічний тип, об'єкти, масиви, null, undefined",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "value": "Числа, рядки, логічний тип, об'єкти, null, undefined",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "№": 14,
+    "question": "Як можна створити новий об'єкт в Javascript?",
+    "answers": [
+      { "id": 1, "value": "[ ]", "correct": false },
+      { "id": 2, "value": "{ }", "correct": false },
+      { "id": 3, "value": "( )", "correct": false },
+      { "id": 4, "value": "< >", "correct": false }
+    ]
+  },
+  {
+    "№": 15,
+    "question": "Як можна отримати кількість елементів у масиві?",
+    "answers": [
+      { "id": 1, "value": "length", "correct": false },
+      { "id": 2, "value": "size", "correct": false },
+      { "id": 3, "value": "count", "correct": false },
+      { "id": 4, "value": "index", "correct": false }
+    ]
+  },
+  {
+    "№": 16,
+    "question": "Що буде виведено у консоль?",
+    "code": "const min = Math.min (... [1, 5, -1, -10]);\nconsole.log(min);",
+    "answers": [
+      { "id": 1, "value": "-1", "correct": false },
+      { "id": 2, "value": "-10", "correct": false },
+      { "id": 3, "value": "[1, 5, -1, -10]", "correct": false },
+      { "id": 4, "value": "5", "correct": false }
+    ]
+  },
+  {
+    "№": 17,
+    "question": "Що повертає метод fetch()?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "Дані, як результат асинхронної операції",
+        "correct": false
+      },
+      { "id": 2, "value": "Проміс (promise)", "correct": false },
+      { "id": 3, "value": "NaN", "correct": false },
+      { "id": 4, "value": "Error", "correct": false }
+    ]
+  },
+  {
+    "№": 18,
+    "question": "Що буде виведено у консоль?",
+    "code": "const name = 'bob';\nconst age = 20;\nconst obj = {\n  name,\n  age\n};\n\nconsole.log(obj);",
+    "answers": [
+      { "id": 1, "value": "['name', 'age']", "correct": false },
+      { "id": 2, "value": "{name: null, age: null}", "correct": false },
+      { "id": 3, "value": "{name: 'bob', age: 20}", "correct": false },
+      { "id": 4, "value": "{'bob: null, '20': null}", "correct": false }
+    ]
+  },
+  {
+    "№": 19,
+    "question": "\nЩо таке NPM?\n",
+    "answers": [
+      {
+        "id": 1,
+        "value": "менеджер пакетів, який використовується Node.js додатками",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "менеджер сервера, який використовується Node.js-додатками",
+        "correct": false
+      },
+      { "id": 3, "value": "Бібліотека анімацій", "correct": false }
+    ]
+  },
+  {
+    "№": 20,
+    "question": "Що буде виведено у консоль?",
+    "code": "const piece = {\n  x: 0,\n  y: 0,\n  move(x, y) {\n    this.x = x;\n    this.y = y;\n  },\n};\n\npiece.move(10, 10);\nconsole.log(piece);",
+    "answers": [
+      { "id": 1, "value": "null", "correct": false },
+      { "id": 2, "value": "undefined", "correct": false },
+      { "id": 3, "value": "{ x: 0, y: 0, move: f }", "correct": false },
+      { "id": 4, "value": "{ x: 10, y: 10, move: f }", "correct": false }
+    ]
+  },
+  {
+    "№": 21,
+    "question": "\nЯкою командою запускатиметься npm скрипт з ім'ям qwerty\"?\"",
+    "answers": [
+      { "id": 1, "value": "npm run qwerty", "correct": false },
+      { "id": 2, "value": "npm start qwerty", "correct": false },
+      { "id": 3, "value": "npm qwerty", "correct": false },
+      { "id": 4, "value": "npm execute qwerty", "correct": false }
+    ]
+  },
+  {
+    "№": 22,
+    "question": "Що буде виведено у консоль?",
+    "code": "const [a, ,b] = 'JavaScript is awesome'.split(' ');\nconsole.log(a, b);",
+    "answers": [
+      { "id": 1, "value": "JavaScript is', 'awesome'", "correct": false },
+      { "id": 2, "value": "JavaScript', 'awesome'", "correct": false },
+      { "id": 3, "value": "JavaScript', 'is', 'awesome'", "correct": false },
+      { "id": 4, "value": "awesome'", "correct": false }
+    ]
+  },
+  {
+    "№": 23,
+    "question": "\nЯкі два типи експорту модулів існують у ECMAScript Modules?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "single export и multiple exports",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "function export и variable export",
+        "correct": false
+      },
+      { "id": 3, "value": "named export и default export", "correct": false }
+    ]
+  },
+  {
+    "№": 24,
+    "question": "Що буде виведено у консоль?",
+    "code": "const { name, age, gender = 'm', hairColor: color } = {\n name: 'Jacob',\n age: 20,\n hairColor: 'blue',\n};\n\nconsole.log(name, age, gender, color);",
+    "answers": [
+      {
+        "id": 1,
+        "value": "A runtime exception will be thrown",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "undefined, undefined, 'm', 'blue'",
+        "correct": false
+      },
+      { "id": 3, "value": "Jacob', 20, undefined, 'blue'", "correct": false },
+      { "id": 4, "value": "Jacob', 20, 'm', 'blue'", "correct": false }
+    ]
+  },
+  {
+    "№": 25,
+    "question": "Який метод використовується для створення нового масиву з вибраних елементів в існуючому масиві?",
+    "answers": [
+      { "id": 1, "value": "map()", "correct": false },
+      { "id": 2, "value": "slice()", "correct": false },
+      { "id": 3, "value": "splice()", "correct": false },
+      { "id": 4, "value": "reduce()", "correct": false }
+    ]
+  },
+  {
+    "№": 26,
+    "question": "Що буде виведено у консоль?",
+    "code": "const dog = {name: 'Poly'};\n\nfunction showDogName() {\n  console.log(this.name);\n}\n\nconst boundShowDogName = showDogName.bind(dog);\nboundShowDogName();",
+    "answers": [
+      { "id": 1, "value": "undefined", "correct": false },
+      { "id": 2, "value": "Poly'", "correct": false },
+      { "id": 3, "value": "null", "correct": false },
+      {
+        "id": 4,
+        "value": "Помилка зверення до властивості name",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "№": 27,
+    "question": "Виберіть опис package.json\"",
+    "answers": [
+      {
+        "id": 1,
+        "value": "Це файл із даними версій проекту та його автора",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "Це JavaScript-подання програми та її залежностей",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "Це JSON-подання програми та її залежностей",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "value": "Це точка входу в проект для Node.js додатків",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "№": 28,
+    "question": "Що буде виведено у консоль?",
+    "code": "const userA = {\n  name: 'Mango',\n  age: 5,\n};\n\nconst userB = {\n  ...userA,\n  age: 10,\n  happy: true,\n};\n\nconsole.log(userB);",
+    "answers": [
+      {
+        "id": 1,
+        "value": "{name: 'Mango', age: 10, happy: true}",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "{ userA: {name: 'Mango', age: 5}, age: 10, happy: true}",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "{name: 'Mango', age: 5, happy: true}",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "№": 29,
+    "question": "Який тип імпорту?",
+    "code": "import { a, b } from 'lib';",
+    "answers": [
+      { "id": 1, "value": "Імпорт за замовчуванням", "correct": false },
+      { "id": 2, "value": "Іменований імпорт", "correct": false },
+      { "id": 3, "value": "імпорт простору імен", "correct": false }
+    ]
+  },
+  {
+    "№": 30,
+    "question": "\nЩо таке проміс (promise)?\n",
+    "answers": [
+      {
+        "id": 1,
+        "value": "Це дані, отримані в результаті асинхронної операції",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "Це функція, що представляє кінцевий результат асинхронної операції",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "Це об'єкт, що є кінцевим результатом асинхронної операції.",
+        "correct": false
+      }
+    ]
+  }
+]

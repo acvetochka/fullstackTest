@@ -1,0 +1,358 @@
+[
+  {
+    "№": 1,
+    "question": "Вкажіть елементи верхнього рівня HTML-документа",
+    "code": " &lt;div class=”box”&gt;&lt;/div&gt; ",
+    "answers": [
+      { "id": 1, "value": "html, head, body", "correct": true },
+      { "id": 2, "value": "section, title, article", "correct": false },
+      { "id": 3, "value": "header, main, footer", "correct": false },
+      { "id": 4, "value": "h1, p, link", "correct": false }
+    ]
+  },
+  {
+    "№": 2,
+    "question": "Які теги використовуються для розмітки тексту?",
+    "answers": [
+      { "id": 1, "value": "sub, sup, strong, b", "correct": false },
+      { "id": 2, "value": "dl, span, pre", "correct": false },
+      { "id": 3, "value": "time, address, i, em", "correct": false },
+      { "id": 4, "value": "всі варіанти вірні", "correct": true }
+    ]
+  },
+  {
+    "№": 3,
+    "question": "Елемент &lt;main&gt;  призначений для...",
+    "answers": [
+      {
+        "id": 1,
+        "value": "групування дрібних елементів на сторінці",
+        "correct": false
+      },
+      { "id": 2, "value": "основного вмісту документа", "correct": true },
+      {
+        "id": 3,
+        "value": "форматування контенту для пошукових систем",
+        "correct": false
+      },
+      { "id": 4, "value": "немає вірної відповіді", "correct": false }
+    ]
+  },
+  {
+    "№": 4,
+    "question": "Синій колір - це...",
+    "answers": [
+      { "id": 1, "value": "rgb(0, 255, 0)", "correct": false },
+      { "id": 2, "value": "rgb(0, 0, 0)", "correct": false },
+      { "id": 3, "value": "rgb(0, 0, 255)", "correct": true },
+      { "id": 4, "value": "rgb(255, 0, 0)", "correct": false }
+    ]
+  },
+  {
+    "№": 5,
+    "question": "Який елемент не успадковує font-family від body?",
+    "answers": [
+      { "id": 1, "value": "button", "correct": true },
+      { "id": 2, "value": "span", "correct": false },
+      { "id": 3, "value": "a", "correct": false },
+      { "id": 4, "value": "article", "correct": false }
+    ]
+  },
+  {
+    "№": 6,
+    "question": "Яка мінімальна кількість кольорів повинна бути вказана у градієнті?",
+    "answers": [
+      { "id": 1, "value": "1", "correct": false },
+      { "id": 2, "value": "2", "correct": true },
+      { "id": 3, "value": "3", "correct": false },
+      { "id": 4, "value": "4", "correct": false }
+    ]
+  },
+  {
+    "№": 7,
+    "question": "Яка CSS-властивість визначає зовнішній відступ для елемента?",
+    "answers": [
+      { "id": 1, "value": "border", "correct": false },
+      { "id": 2, "value": "padding", "correct": false },
+      { "id": 3, "value": "margin", "correct": true },
+      { "id": 4, "value": "width", "correct": false }
+    ]
+  },
+  {
+    "№": 8,
+    "question": "Виберіть правильно записаний клас класу для елемента",
+    "code": " &lt;div class=”box”&gt;&lt;/div&gt; ",
+    "answers": [
+      { "id": 1, "value": "div > box", "correct": false },
+      { "id": 2, "value": ".box", "correct": true },
+      { "id": 3, "value": "div + box", "correct": false },
+      { "id": 4, "value": "box", "correct": false }
+    ]
+  },
+  {
+    "№": 9,
+    "question": "За допомогою якого символу оголошується селектор id?",
+    "answers": [
+      { "id": 1, "value": "#", "correct": true },
+      { "id": 2, "value": "&", "correct": false },
+      { "id": 3, "value": "*", "correct": false },
+      { "id": 4, "value": ">", "correct": false }
+    ]
+  },
+  {
+    "№": 10,
+    "question": "Скільки осей у flex-контейнері?",
+    "answers": [
+      { "id": 1, "value": "1", "correct": false },
+      { "id": 2, "value": "2", "correct": true },
+      { "id": 3, "value": "3", "correct": false },
+      { "id": 4, "value": "4", "correct": false }
+    ]
+  },
+  {
+    "№": 11,
+    "question": "Які елементи можна вкладати у ul/ol?",
+    "answers": [
+      { "id": 1, "value": "тільки блочні", "correct": false },
+      { "id": 2, "value": "li обернутий в div", "correct": false },
+      { "id": 3, "value": "Будь -які", "correct": false },
+      { "id": 4, "value": "тільки li", "correct": true }
+    ]
+  },
+  {
+    "№": 12,
+    "question": "Сімейство шрифту із засічками",
+    "answers": [
+      { "id": 1, "value": "sans-serif", "correct": false },
+      { "id": 2, "value": "monospace", "correct": false },
+      { "id": 3, "value": "serif", "correct": true },
+      { "id": 4, "value": "cursive", "correct": false }
+    ]
+  },
+  {
+    "№": 13,
+    "question": "За що відповідає HTML?",
+    "answers": [
+      { "id": 1, "value": "за структуру і зміст", "correct": true },
+      { "id": 2, "value": "за зовнішній вигляд", "correct": false },
+      { "id": 3, "value": "за функціонал", "correct": false },
+      { "id": 4, "value": "всі варіанти вірні", "correct": false }
+    ]
+  },
+  {
+    "№": 14,
+    "question": "Що таке тег?",
+    "answers": [
+      { "id": 1, "value": "пояснення у вихідному коді", "correct": false },
+      {
+        "id": 2,
+        "value": "елемент мови розмітки гіпертексту",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "value": "значення власивості для оформлення зовнішнього вигляду",
+        "correct": false
+      },
+      { "id": 4, "value": "найбільший будівельний блок", "correct": false }
+    ]
+  },
+  {
+    "№": 15,
+    "question": "Яка властивість не впливає на блокову модель елемента?",
+    "answers": [
+      { "id": 1, "value": "border", "correct": false },
+      { "id": 2, "value": "padding", "correct": false },
+      { "id": 3, "value": "margin", "correct": false },
+      { "id": 4, "value": "outline", "correct": true }
+    ]
+  },
+  {
+    "№": 16,
+    "question": "Блоковий елемент від рядкового відрізняється тим, що...",
+    "answers": [
+      {
+        "id": 1,
+        "value": "Не повинен починатись з нового рядка",
+        "correct": false
+      },
+      { "id": 2, "value": "Ширина визначається контентом", "correct": false },
+      {
+        "id": 3,
+        "value": "Займає всю доступну ширину батька",
+        "correct": true
+      },
+      {
+        "id": 4,
+        "value": "Всередині не можна розміщувати інший блоковий елемент",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "№": 17,
+    "question": "Фон елемента дефолту поширюється на",
+    "answers": [
+      { "id": 1, "value": "paddind + content", "correct": true },
+      { "id": 2, "value": "margin + padding + content", "correct": false },
+      { "id": 3, "value": "margin + content", "correct": false },
+      { "id": 4, "value": "content", "correct": false }
+    ]
+  },
+  {
+    "№": 18,
+    "question": "Навіщо потрібен атрибут placeholder",
+    "answers": [
+      { "id": 1, "value": "автозаповнення", "correct": false },
+      { "id": 2, "value": "текст-підсказка", "correct": true },
+      { "id": 3, "value": "слугує для валідації", "correct": false },
+      { "id": 4, "value": "взагалі не потрібен", "correct": false }
+    ]
+  },
+  {
+    "№": 19,
+    "question": "Яка різниця між animation та transition",
+    "answers": [
+      {
+        "id": 1,
+        "value": "анімацію не можна перевести в статус паузи",
+        "correct": false
+      },
+      { "id": 2, "value": "різний синтаксис ", "correct": false },
+      { "id": 3, "value": "у animation є проміжні стани", "correct": true },
+      { "id": 4, "value": "ніякий", "correct": false }
+    ]
+  },
+  {
+    "№": 20,
+    "question": "Яка властивість є обов'язковою при створенні before та after",
+    "answers": [
+      { "id": 1, "value": "width", "correct": false },
+      { "id": 2, "value": "position", "correct": false },
+      { "id": 3, "value": "display", "correct": false },
+      { "id": 4, "value": "content", "correct": true }
+    ]
+  },
+  {
+    "№": 21,
+    "question": "Блокові елементи приймають ширину...",
+    "answers": [
+      { "id": 1, "value": "За доступною шириною", "correct": true },
+      { "id": 2, "value": "За вмістом", "correct": false }
+    ]
+  },
+  {
+    "№": 22,
+    "question": "За умовчанням, значення властивості align-items для флекс-контейнера буде...",
+    "answers": [
+      { "id": 1, "value": "flex-start", "correct": true },
+      { "id": 2, "value": "stretch", "correct": false },
+      { "id": 3, "value": "center", "correct": false },
+      { "id": 4, "value": "baseline", "correct": false }
+    ]
+  },
+  {
+    "№": 23,
+    "question": "Який оператор позначає логічне \"і\" для @media",
+    "answers": [
+      { "id": 1, "value": ",", "correct": false },
+      { "id": 2, "value": "screen", "correct": false },
+      { "id": 3, "value": "and", "correct": true },
+      { "id": 4, "value": "пробіл", "correct": false }
+    ]
+  },
+  {
+    "№": 24,
+    "question": "Яка властивість НЕ змінює порядок виведення елементів на сторінці",
+    "answers": [
+      { "id": 1, "value": "wrap-rewerse", "correct": false },
+      { "id": 2, "value": "row-rewerse", "correct": false },
+      { "id": 3, "value": "order", "correct": false },
+      { "id": 4, "value": "column", "correct": true }
+    ]
+  },
+  {
+    "№": 25,
+    "question": "Тег &lt;datalist&gt; створює...",
+    "answers": [
+      { "id": 1, "value": "список автозаповнення", "correct": true },
+      { "id": 2, "value": "випадаючий список", "correct": false },
+      { "id": 3, "value": "поле для заповнення", "correct": false },
+      { "id": 4, "value": "контекстне меню", "correct": false }
+    ]
+  },
+  {
+    "№": 26,
+    "question": "З яких частин складається форма?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "системою управління контейнтом та серверу",
+        "correct": false
+      },
+      { "id": 2, "value": "інтерфейсу користувача і бекенду", "correct": true },
+      { "id": 3, "value": "інтерфейсу адміна і фронтенду", "correct": false },
+      {
+        "id": 4,
+        "value": "інтерфейсу користувача і клауд-сервісів",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "№": 27,
+    "question": "Без якої властивості не можливо створити псевдоелемент ::before",
+    "answers": [
+      { "id": 1, "value": "position", "correct": false },
+      { "id": 2, "value": "display", "correct": false },
+      { "id": 3, "value": "content", "correct": true },
+      { "id": 4, "value": "width/height", "correct": false }
+    ]
+  },
+  {
+    "№": 28,
+    "question": "Для наслідування в SASS використовується директива",
+    "answers": [
+      { "id": 1, "value": "@mixin", "correct": false },
+      { "id": 2, "value": "@include", "correct": false },
+      { "id": 3, "value": "@import", "correct": false },
+      { "id": 4, "value": "@extend", "correct": true }
+    ]
+  },
+  {
+    "№": 29,
+    "question": "Який атрибут має бути однаково заповнений у групи радіо-батонів, щоб браузер зрозумів що це група?",
+    "answers": [
+      { "id": 1, "value": "name", "correct": true },
+      { "id": 2, "value": "value", "correct": false },
+      { "id": 3, "value": "type", "correct": false },
+      { "id": 4, "value": "checked", "correct": false }
+    ]
+  },
+  {
+    "№": 30,
+    "question": "Вкажіть помилкові параметри для градієнта",
+    "answers": [
+      {
+        "id": 1,
+        "value": "linear-gradient(70deg, blue, pink)",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "linear-gradient(to center, blue)",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "value": "linear-gradient(to bottom right, blue, pink)",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "value": "radial-gradient(at center, var(--start-color) 10%, var(--end-color) 50%)",
+        "correct": false
+      }
+    ]
+  }
+]
