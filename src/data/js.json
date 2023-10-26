@@ -85,7 +85,7 @@
     "№": 7,
     "question": "Метод Array.prototype.map() завжди поверне масив такої ж довжини як вихідний?",
     "answers": [
-      { "id": 1, "value": "Так", "correct": false },
+      { "id": 1, "value": "Так", "correct": true },
       { "id": 2, "value": "Ні", "correct": false }
     ]
   },

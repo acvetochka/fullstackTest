@@ -13,10 +13,10 @@
     "№": 2,
     "question": "За допомогою якого методу відправляються подія / action?",
     "answers": [
-      { "id": 1, "value": "dispatch(action)", "correct": false },
+      { "id": 1, "value": "dispatch(action)", "correct": true },
       { "id": 2, "value": "callback(dispatch)", "correct": false },
       { "id": 3, "value": "reducers(action)", "correct": false },
-      { "id": 4, "value": "додаткового методу не потрібно", "correct": true }
+      { "id": 4, "value": "додаткового методу не потрібно", "correct": false }
     ]
   },
   {
@@ -28,9 +28,9 @@
       {
         "id": 3,
         "value": "достатньо використовувати лише один виклик",
-        "correct": false
+        "correct": true
       },
-      { "id": 4, "value": "не потрібно взагалі", "correct": true }
+      { "id": 4, "value": "не потрібно взагалі", "correct": false }
     ]
   },
   {
@@ -47,7 +47,7 @@
     "№": 5,
     "question": "props може бути null або порожній об'єкт?",
     "answers": [
-      { "id": 1, "value": "yes", "correct": false },
+      { "id": 1, "value": "yes", "correct": true },
       { "id": 2, "value": "no", "correct": false }
     ]
   },
@@ -59,10 +59,10 @@
       {
         "id": 2,
         "value": "об'єкт, що містить HTML-атрибути та кастомні властивості",
-        "correct": false
+        "correct": true
       },
       { "id": 3, "value": "масив значень", "correct": false },
-      { "id": 4, "value": "довільна кількість аргументів", "correct": true }
+      { "id": 4, "value": "довільна кількість аргументів", "correct": false }
     ]
   },
   {
@@ -71,8 +71,8 @@
     "answers": [
       { "id": 1, "value": "useState, redux", "correct": false },
       { "id": 2, "value": "useState, state", "correct": false },
-      { "id": 3, "value": "callback, масив залежностей", "correct": false },
-      { "id": 4, "value": "callback, promise", "correct": true }
+      { "id": 3, "value": "callback, масив залежностей", "correct": true },
+      { "id": 4, "value": "callback, promise", "correct": false }
     ]
   },
   {
@@ -80,7 +80,7 @@
     "question": "Можна використовувати hooks за межами функціональних компонентів?",
     "answers": [
       { "id": 1, "value": "yes", "correct": false },
-      { "id": 2, "value": "no", "correct": false }
+      { "id": 2, "value": "no", "correct": true }
     ]
   },
   {
@@ -88,7 +88,7 @@
     "question": "Можна змінювати state безпосередньо за посиланням. Особливо при роботі з масивами, об'єктами?",
     "answers": [
       { "id": 1, "value": "yes", "correct": false },
-      { "id": 2, "value": "no", "correct": false }
+      { "id": 2, "value": "no", "correct": true }
     ]
   },
   {
@@ -96,7 +96,7 @@
     "question": "Об'єкт-стану state можна змінювати розробником напряму?",
     "answers": [
       { "id": 1, "value": "yes", "correct": false },
-      { "id": 2, "value": "no", "correct": false }
+      { "id": 2, "value": "no", "correct": true }
     ]
   },
   {
@@ -109,8 +109,8 @@
         "value": "оновлення батьківського компонента",
         "correct": false
       },
-      { "id": 3, "value": "re-render компонента", "correct": false },
-      { "id": 4, "value": "нічого не відбувається", "correct": true }
+      { "id": 3, "value": "re-render компонента", "correct": true },
+      { "id": 4, "value": "нічого не відбувається", "correct": false }
     ]
   },
   {
@@ -118,14 +118,14 @@
     "question": "Значення null, undefined або false рендеряться у розмітці?",
     "answers": [
       { "id": 1, "value": "yes", "correct": false },
-      { "id": 2, "value": "no", "correct": false }
+      { "id": 2, "value": "no", "correct": true }
     ]
   },
   {
     "№": 13,
     "question": "Ім'я react компонента обов'язково має починатися з великої літери?",
     "answers": [
-      { "id": 1, "value": "yes", "correct": false },
+      { "id": 1, "value": "yes", "correct": true },
       { "id": 2, "value": "no", "correct": false }
     ]
   },
@@ -138,9 +138,9 @@
       {
         "id": 3,
         "value": "достатньо використовувати лише один виклик",
-        "correct": false
+        "correct": true
       },
-      { "id": 4, "value": "не потрібно взагалі", "correct": true }
+      { "id": 4, "value": "не потрібно взагалі", "correct": false }
     ]
   },
   {
@@ -148,16 +148,16 @@
     "question": "Метод ReactDOM.render() використовується для того, щоб ...",
     "answers": [
       { "id": 1, "value": "видалити елемент", "correct": false },
-      { "id": 2, "value": "рендерити елемент", "correct": false },
+      { "id": 2, "value": "рендерити елемент", "correct": true },
       { "id": 3, "value": "змінити елемент", "correct": false },
-      { "id": 4, "value": "цей метод не використовується", "correct": true }
+      { "id": 4, "value": "цей метод не використовується", "correct": false }
     ]
   },
   {
     "№": 16,
     "question": "reducer чистий, він обчислює наступний стан і повертає його, без сюрпризів, жодних побічних ефектів, ніяких мутацій",
     "answers": [
-      { "id": 1, "value": "yes", "correct": false },
+      { "id": 1, "value": "yes", "correct": true },
       { "id": 2, "value": "no", "correct": false }
     ]
   },
@@ -166,16 +166,16 @@
     "question": "Повертає об'єкт розташування, що представляє поточну URL-адресу, при переході на нову або оновленні поточної URL-адреси",
     "answers": [
       { "id": 1, "value": "useMatch", "correct": false },
-      { "id": 2, "value": "useLocation", "correct": false },
+      { "id": 2, "value": "useLocation", "correct": true },
       { "id": 3, "value": "useRouteMatch", "correct": false },
-      { "id": 4, "value": "useRoute", "correct": true }
+      { "id": 4, "value": "useRoute", "correct": false }
     ]
   },
   {
     "№": 18,
     "question": "Функція яку повертаємо з useEffect виконується при розмонтуванні компонента, або взагалі перед кожним викликом useEffect",
     "answers": [
-      { "id": 1, "value": "yes", "correct": false },
+      { "id": 1, "value": "yes", "correct": true },
       { "id": 2, "value": "no", "correct": false }
     ]
   },
@@ -185,8 +185,8 @@
     "answers": [
       { "id": 1, "value": "виконуватися не буде", "correct": false },
       { "id": 2, "value": "при пешому рендері", "correct": false },
-      { "id": 3, "value": "на кожному рендері компонента", "correct": false },
-      { "id": 4, "value": "при розмонтуванні компонента", "correct": true }
+      { "id": 3, "value": "на кожному рендері компонента", "correct": true },
+      { "id": 4, "value": "при розмонтуванні компонента", "correct": false }
     ]
   },
   {
@@ -218,11 +218,11 @@
       {
         "id": 1,
         "value": "Повертає значення зі станом і функцію для його оновлення.",
-        "correct": false
+        "correct": true
       },
       { "id": 2, "value": "Create React App", "correct": false },
       { "id": 3, "value": "Повертає новий стан", "correct": false },
-      { "id": 4, "value": "Не повертає нічого", "correct": true }
+      { "id": 4, "value": "Не повертає нічого", "correct": false }
     ]
   },
   {
@@ -230,16 +230,16 @@
     "question": "У якому методі краще прибирати за собою: слухачі, таймери, HTTP-запити?",
     "answers": [
       { "id": 1, "value": "getSnapshotBeforeUpdate", "correct": false },
-      { "id": 2, "value": "componentWillUnmount", "correct": false },
+      { "id": 2, "value": "componentWillUnmount", "correct": true },
       { "id": 3, "value": "render", "correct": false },
-      { "id": 4, "value": "componentDidUpdate", "correct": true }
+      { "id": 4, "value": "componentDidUpdate", "correct": false }
     ]
   },
   {
     "№": 23,
     "question": "Метод setState() асинхронний?",
     "answers": [
-      { "id": 1, "value": "yes", "correct": false },
+      { "id": 1, "value": "yes", "correct": true },
       { "id": 2, "value": "no", "correct": false }
     ]
   },
@@ -256,9 +256,9 @@
       {
         "id": 3,
         "value": "на сам компонент і на його дочірні елементи",
-        "correct": false
+        "correct": true
       },
-      { "id": 4, "value": "зміна state ні на що не впливає", "correct": true }
+      { "id": 4, "value": "зміна state ні на що не впливає", "correct": false }
     ]
   },
   {
@@ -275,10 +275,10 @@
     "№": 26,
     "question": "...— це синтаксична нотація для JavaScript XML (XML-подібне розширення синтаксису для ECMAScript)",
     "answers": [
-      { "id": 1, "value": "JSX", "correct": false },
+      { "id": 1, "value": "JSX", "correct": true },
       { "id": 2, "value": "Node", "correct": false },
       { "id": 3, "value": "WebPack", "correct": false },
-      { "id": 4, "value": "React", "correct": true }
+      { "id": 4, "value": "React", "correct": false }
     ]
   },
   {
@@ -286,9 +286,9 @@
     "question": "Деякі компоненти не знають своїх нащадків наперед. Який спеціальний проп потрібно використовувати для цих компонентів?",
     "answers": [
       { "id": 1, "value": "type", "correct": false },
-      { "id": 2, "value": "children", "correct": false },
+      { "id": 2, "value": "children", "correct": true },
       { "id": 3, "value": "props", "correct": false },
-      { "id": 4, "value": "args", "correct": true }
+      { "id": 4, "value": "args", "correct": false }
     ]
   },
   {
@@ -300,9 +300,9 @@
       {
         "id": 3,
         "value": "щоб уникнути перестворення всіх елементів колекції при змінах",
-        "correct": false
+        "correct": true
       },
-      { "id": 4, "value": "можна не використовувати", "correct": true }
+      { "id": 4, "value": "можна не використовувати", "correct": false }
     ]
   },
   {
@@ -327,7 +327,7 @@
       {
         "id": 2,
         "value": "тому, що ставить в чергу повторний рендер компонента",
-        "correct": false
+        "correct": true
       },
       {
         "id": 3,
