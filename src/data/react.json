@@ -311,8 +311,8 @@
     "answers": [
       { "id": 1, "value": "undefined", "correct": false },
       { "id": 2, "value": "null", "correct": false },
-      { "id": 3, "value": false, "correct": false },
-      { "id": 4, "value": true, "correct": true }
+      { "id": 3, "value": "false", "correct": false },
+      { "id": 4, "value": "true", "correct": true }
     ]
   },
   {
