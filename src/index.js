@@ -34,7 +34,7 @@ nav.addEventListener('click', e => {
     case 'HTML':
       count = 0;
       renderQuestions(htmlTest, 0, count, totalHTML);
-      console.log(totalHTML);
+      // console.log(totalHTML);
       break;
     case 'JavaScript':
       count = 0;
@@ -43,9 +43,11 @@ nav.addEventListener('click', e => {
     case 'React':
       count = 0;
       renderQuestions(react, 0, count, totalReact);
+      break;
     case 'Node':
       count = 0;
       renderQuestions(node, 0, count, totalNode);
+      break;
     default:
       break;
   }

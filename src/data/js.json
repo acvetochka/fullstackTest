@@ -13,7 +13,7 @@
   {
     "№": 2,
     "question": "Що буде виведено у консоль?",
-    "code": "const value = 5;\nconst value = 'bunny';\nconsole.log(value);",
+    "code": "const value = 5;\n<br/>const value = 'bunny';\n<br/>console.log(value);",
     "answers": [
       { "id": 1, "value": "bunny", "correct": false },
       {
@@ -28,7 +28,7 @@
   {
     "№": 3,
     "question": "Що буде виведено у консоль?",
-    "code": "const value;<br/>value = 10;<br/>console.log(value);",
+    "code": "const value;\n<br/>value = 10;\n<br/>console.log(value);",
     "answers": [
       { "id": 1, "value": "10", "correct": false },
       { "id": 2, "value": "undefined", "correct": false },
@@ -100,8 +100,8 @@
       },
       {
         "id": 2,
-        "value": "Перебирає масив, записуючи до нового масиву ті елементи вихідного, на ітерації яких callback-функція повернула false",
-        "correct": false
+        "value": "Перебирає масив, записуючи до нового масиву ті елементи вихідного, на ітерації яких callback-функція повернула true",
+        "correct": true
       }
     ]
   },
@@ -111,7 +111,7 @@
     "answers": [
       { "id": 1, "value": "obj.keys", "correct": false },
       { "id": 2, "value": "obj.keys()", "correct": false },
-      { "id": 3, "value": "Object.keys(obj)", "correct": false }
+      { "id": 3, "value": "Object.keys(obj)", "correct": true }
     ]
   },
   {
@@ -119,7 +119,7 @@
     "question": "Який метод JSON перетворює об'єкт на рядок?",
     "answers": [
       { "id": 1, "value": "JSON.parse()", "correct": false },
-      { "id": 2, "value": "JSON.stringify()", "correct": false },
+      { "id": 2, "value": "JSON.stringify()", "correct": true },
       { "id": 3, "value": "JSON.convert()", "correct": false },
       { "id": 4, "value": "JSON.toString()", "correct": false }
     ]
@@ -128,7 +128,7 @@
     "№": 11,
     "question": "Виберіть не існуючий HTTP-метод\"",
     "answers": [
-      { "id": 1, "value": "GRAB", "correct": false },
+      { "id": 1, "value": "GRAB", "correct": true },
       { "id": 2, "value": "GET", "correct": false },
       { "id": 3, "value": "PUT", "correct": false },
       { "id": 4, "value": "DELETE", "correct": false }
@@ -141,7 +141,7 @@
       { "id": 1, "value": "://", "correct": false },
       { "id": 2, "value": "&", "correct": false },
       { "id": 3, "value": ":", "correct": false },
-      { "id": 4, "value": "?", "correct": false }
+      { "id": 4, "value": "?", "correct": true }
     ]
   },
   {
@@ -161,7 +161,7 @@
       {
         "id": 3,
         "value": "Числа, рядки, логічний тип, об'єкти, масиви, null, undefined",
-        "correct": false
+        "correct": true
       },
       {
         "id": 4,
@@ -175,7 +175,7 @@
     "question": "Як можна створити новий об'єкт в Javascript?",
     "answers": [
       { "id": 1, "value": "[ ]", "correct": false },
-      { "id": 2, "value": "{ }", "correct": false },
+      { "id": 2, "value": "{ }", "correct": true },
       { "id": 3, "value": "( )", "correct": false },
       { "id": 4, "value": "< >", "correct": false }
     ]
@@ -184,7 +184,7 @@
     "№": 15,
     "question": "Як можна отримати кількість елементів у масиві?",
     "answers": [
-      { "id": 1, "value": "length", "correct": false },
+      { "id": 1, "value": "length", "correct": true },
       { "id": 2, "value": "size", "correct": false },
       { "id": 3, "value": "count", "correct": false },
       { "id": 4, "value": "index", "correct": false }
@@ -196,7 +196,7 @@
     "code": "const min = Math.min (... [1, 5, -1, -10]);\nconsole.log(min);",
     "answers": [
       { "id": 1, "value": "-1", "correct": false },
-      { "id": 2, "value": "-10", "correct": false },
+      { "id": 2, "value": "-10", "correct": true },
       { "id": 3, "value": "[1, 5, -1, -10]", "correct": false },
       { "id": 4, "value": "5", "correct": false }
     ]
@@ -210,7 +210,7 @@
         "value": "Дані, як результат асинхронної операції",
         "correct": false
       },
-      { "id": 2, "value": "Проміс (promise)", "correct": false },
+      { "id": 2, "value": "Проміс (promise)", "correct": true },
       { "id": 3, "value": "NaN", "correct": false },
       { "id": 4, "value": "Error", "correct": false }
     ]
@@ -222,7 +222,7 @@
     "answers": [
       { "id": 1, "value": "['name', 'age']", "correct": false },
       { "id": 2, "value": "{name: null, age: null}", "correct": false },
-      { "id": 3, "value": "{name: 'bob', age: 20}", "correct": false },
+      { "id": 3, "value": "{name: 'bob', age: 20}", "correct": true },
       { "id": 4, "value": "{'bob: null, '20': null}", "correct": false }
     ]
   },
@@ -233,7 +233,7 @@
       {
         "id": 1,
         "value": "менеджер пакетів, який використовується Node.js додатками",
-        "correct": false
+        "correct": true
       },
       {
         "id": 2,
@@ -246,19 +246,19 @@
   {
     "№": 20,
     "question": "Що буде виведено у консоль?",
-    "code": "const piece = {\n  x: 0,\n  y: 0,\n  move(x, y) {\n    this.x = x;\n    this.y = y;\n  },\n};\n\npiece.move(10, 10);\nconsole.log(piece);",
+    "code": "const piece = {\nx: 0,\ny: 0,\nmove(x, y) {\nthis.x = x;\nthis.y = y;\n},\n};\npiece.move(10, 10);\nconsole.log(piece);",
     "answers": [
       { "id": 1, "value": "null", "correct": false },
       { "id": 2, "value": "undefined", "correct": false },
       { "id": 3, "value": "{ x: 0, y: 0, move: f }", "correct": false },
-      { "id": 4, "value": "{ x: 10, y: 10, move: f }", "correct": false }
+      { "id": 4, "value": "{ x: 10, y: 10, move: f }", "correct": true }
     ]
   },
   {
     "№": 21,
     "question": "\nЯкою командою запускатиметься npm скрипт з ім'ям qwerty\"?\"",
     "answers": [
-      { "id": 1, "value": "npm run qwerty", "correct": false },
+      { "id": 1, "value": "npm run qwerty", "correct": true },
       { "id": 2, "value": "npm start qwerty", "correct": false },
       { "id": 3, "value": "npm qwerty", "correct": false },
       { "id": 4, "value": "npm execute qwerty", "correct": false }
@@ -270,7 +270,7 @@
     "code": "const [a, ,b] = 'JavaScript is awesome'.split(' ');\nconsole.log(a, b);",
     "answers": [
       { "id": 1, "value": "JavaScript is', 'awesome'", "correct": false },
-      { "id": 2, "value": "JavaScript', 'awesome'", "correct": false },
+      { "id": 2, "value": "JavaScript', 'awesome'", "correct": true },
       { "id": 3, "value": "JavaScript', 'is', 'awesome'", "correct": false },
       { "id": 4, "value": "awesome'", "correct": false }
     ]
@@ -289,7 +289,7 @@
         "value": "function export и variable export",
         "correct": false
       },
-      { "id": 3, "value": "named export и default export", "correct": false }
+      { "id": 3, "value": "named export и default export", "correct": true }
     ]
   },
   {
@@ -308,7 +308,7 @@
         "correct": false
       },
       { "id": 3, "value": "Jacob', 20, undefined, 'blue'", "correct": false },
-      { "id": 4, "value": "Jacob', 20, 'm', 'blue'", "correct": false }
+      { "id": 4, "value": "Jacob', 20, 'm', 'blue'", "correct": true }
     ]
   },
   {
@@ -316,7 +316,7 @@
     "question": "Який метод використовується для створення нового масиву з вибраних елементів в існуючому масиві?",
     "answers": [
       { "id": 1, "value": "map()", "correct": false },
-      { "id": 2, "value": "slice()", "correct": false },
+      { "id": 2, "value": "slice()", "correct": true },
       { "id": 3, "value": "splice()", "correct": false },
       { "id": 4, "value": "reduce()", "correct": false }
     ]
@@ -327,7 +327,7 @@
     "code": "const dog = {name: 'Poly'};\n\nfunction showDogName() {\n  console.log(this.name);\n}\n\nconst boundShowDogName = showDogName.bind(dog);\nboundShowDogName();",
     "answers": [
       { "id": 1, "value": "undefined", "correct": false },
-      { "id": 2, "value": "Poly'", "correct": false },
+      { "id": 2, "value": "Poly'", "correct": true },
       { "id": 3, "value": "null", "correct": false },
       {
         "id": 4,
@@ -353,7 +353,7 @@
       {
         "id": 3,
         "value": "Це JSON-подання програми та її залежностей",
-        "correct": false
+        "correct": true
       },
       {
         "id": 4,
@@ -370,7 +370,7 @@
       {
         "id": 1,
         "value": "{name: 'Mango', age: 10, happy: true}",
-        "correct": false
+        "correct": true
       },
       {
         "id": 2,
@@ -390,7 +390,7 @@
     "code": "import { a, b } from 'lib';",
     "answers": [
       { "id": 1, "value": "Імпорт за замовчуванням", "correct": false },
-      { "id": 2, "value": "Іменований імпорт", "correct": false },
+      { "id": 2, "value": "Іменований імпорт", "correct": true },
       { "id": 3, "value": "імпорт простору імен", "correct": false }
     ]
   },
@@ -411,7 +411,7 @@
       {
         "id": 3,
         "value": "Це об'єкт, що є кінцевим результатом асинхронної операції.",
-        "correct": false
+        "correct": true
       }
     ]
   }

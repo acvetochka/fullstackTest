@@ -18,6 +18,8 @@ export const renderQuestions = (module, idx, count, moduleCount) => {
   //   console.log(moduleCount);
   //   console.log(`ModuleCount: ${moduleCount}`);
 
+  // const codeMap = code.split(';');
+
   const renderAnswers = () =>
     answers
       .map(
@@ -41,12 +43,15 @@ export const renderQuestions = (module, idx, count, moduleCount) => {
                 `;
 
   const renderCount = () => {
+    console.log(counter);
     counter.forEach(item => {
+      console.log(item.previousElementSibling);
       if (item.previousElementSibling.classList.contains('current')) {
         item.innerHTML = `${count}/${module.length}`;
+        console.log(item);
       }
     });
-    // counter.innerHTML = `${correctAnswers}/${module.length}`;
+    counter.innerHTML = `${correctAnswers}/${module.length}`;
   };
 
   renderIndicator(module, idx);

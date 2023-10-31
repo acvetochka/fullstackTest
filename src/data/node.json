@@ -4,9 +4,9 @@
     "question": "Завантажити образ Docker допоможе команда ...",
     "answers": [
       { "id": 1, "value": "docker run", "correct": false },
-      { "id": 2, "value": "docker pull", "correct": false },
+      { "id": 2, "value": "docker pull", "correct": true },
       { "id": 3, "value": "docker commit", "correct": false },
-      { "id": 4, "value": "docker ps", "correct": true }
+      { "id": 4, "value": "docker ps", "correct": false }
     ]
   },
   {

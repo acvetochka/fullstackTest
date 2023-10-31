@@ -273,7 +273,7 @@
   },
   {
     "№": 25,
-    "question": "Тег &lt;datalist&gt; створює...",
+    "question": "Тег datalist створює...",
     "answers": [
       { "id": 1, "value": "список автозаповнення", "correct": true },
       { "id": 2, "value": "випадаючий список", "correct": false },
