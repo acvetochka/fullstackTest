@@ -13,7 +13,7 @@
     "№": 2,
     "question": "Чи вірним є твердження:  multer ((middleware фреймворка Express) не обробляє жодний інший тип форм, крім multipart/form-data?",
     "answers": [
-      { "id": 1, "value": "Так", "correct": false },
+      { "id": 1, "value": "Так", "correct": true },
       { "id": 2, "value": "Ні", "correct": false }
     ]
   },
@@ -34,7 +34,7 @@
       {
         "id": 3,
         "value": "Обробник якого спрацює лише якщо попередньо в middleware функції (проміжному ПЗ) буде успішному пройдена перевірка валідності переданого токена",
-        "correct": false
+        "correct": true
       }
     ]
   },
@@ -50,7 +50,7 @@
       {
         "id": 2,
         "value": "Ні, адже ця інформація може бути легко розшифрована",
-        "correct": false
+        "correct": true
       }
     ]
   },
@@ -59,14 +59,14 @@
     "question": "Чи вірне твердження: URL це ширше поняття і включає у собі URI?",
     "answers": [
       { "id": 1, "value": "Так", "correct": false },
-      { "id": 2, "value": "Ні", "correct": false }
+      { "id": 2, "value": "Ні", "correct": true }
     ]
   },
   {
     "№": 6,
     "question": "Чи вірне твердження: змінні середовища - це локальні змінні, які доступні нашому додатку?",
     "answers": [
-      { "id": 1, "value": "Так", "correct": false },
+      { "id": 1, "value": "Так", "correct": true },
       { "id": 2, "value": "Ні", "correct": false }
     ]
   },
@@ -84,13 +84,13 @@
     "№": 8,
     "question": "Що буде значенням властивості body об'єкта запиту, якщо запит відправлений з порожнім тілом?",
     "answers": [
-      { "id": 1, "value": "Порожній об'єкт", "correct": false },
+      { "id": 1, "value": "Порожній об'єкт", "correct": true },
       { "id": 2, "value": "null", "correct": false },
       { "id": 3, "value": "undefined", "correct": false },
       {
         "id": 4,
         "value": "Властивості body в об'єкта запиту не буде",
-        "correct": true
+        "correct": false
       }
     ]
   },
@@ -113,9 +113,9 @@
     "question": "До переліку аргументів, переданих в get-запиті після знаку питання ? можна отримати доступ в об'єкті:",
     "answers": [
       { "id": 1, "value": "req.params", "correct": false },
-      { "id": 2, "value": "req.query", "correct": false },
+      { "id": 2, "value": "req.query", "correct": true },
       { "id": 3, "value": "req.searchparams", "correct": false },
-      { "id": 4, "value": "req.url", "correct": true }
+      { "id": 4, "value": "req.url", "correct": false }
     ]
   },
   {
@@ -128,7 +128,7 @@
         "correct": false
       },
       { "id": 2, "value": "Об'єкт відповіді", "correct": false },
-      { "id": 3, "value": "Об'єкт запиту", "correct": false }
+      { "id": 3, "value": "Об'єкт запиту", "correct": true }
     ]
   },
   {
@@ -138,7 +138,7 @@
       {
         "id": 1,
         "value": "Абсолютний шлях до папки, що містить виконуваний скрипт\n",
-        "correct": false
+        "correct": true
       },
       {
         "id": 2,
@@ -151,10 +151,10 @@
     "№": 13,
     "question": "Для видалення файлу використовується метод..",
     "answers": [
-      { "id": 1, "value": "fs.unlink", "correct": false },
+      { "id": 1, "value": "fs.unlink", "correct": true },
       { "id": 2, "value": "fs.close", "correct": false },
       { "id": 3, "value": "fs.unwatchFile", "correct": false },
-      { "id": 4, "value": "fs.deleteFile", "correct": true }
+      { "id": 4, "value": "fs.deleteFile", "correct": false }
     ]
   },
   {
@@ -162,9 +162,9 @@
     "question": "Якої категорії модулів не існує?",
     "answers": [
       { "id": 1, "value": "Файлові (file modules)", "correct": false },
-      { "id": 2, "value": "Загальні (common modules)", "correct": false },
+      { "id": 2, "value": "Загальні (common modules)", "correct": true },
       { "id": 3, "value": "Базові (core modules)", "correct": false },
-      { "id": 4, "value": "npm-модулі (npm modules)", "correct": true }
+      { "id": 4, "value": "npm-модулі (npm modules)", "correct": false }
     ]
   },
   {
@@ -197,7 +197,7 @@
     "№": 16,
     "question": "Схеми Mongoose підтримують параметр часових позначок. Якщо встановити timestamps: true, Mongoose додасть до схеми дві властивості - createdAt та updatedAt. Чи можна змінити назви цих властивостей?",
     "answers": [
-      { "id": 1, "value": "Так", "correct": false },
+      { "id": 1, "value": "Так", "correct": true },
       { "id": 2, "value": "Ні", "correct": false }
     ]
   },
@@ -208,7 +208,7 @@
       {
         "id": 1,
         "value": "Пришвидшення пошуку по цим полям",
-        "correct": false
+        "correct": true
       },
       {
         "id": 2,
@@ -216,7 +216,7 @@
         "correct": false
       },
       { "id": 3, "value": "Обидва варіанти вірні", "correct": false },
-      { "id": 4, "value": "Жоден з варіантів не є вірним", "correct": true }
+      { "id": 4, "value": "Жоден з варіантів не є вірним", "correct": false }
     ]
   },
   {
@@ -232,9 +232,9 @@
       {
         "id": 3,
         "value": "Надсилання відповіді JSON з підтримкою JSONP",
-        "correct": false
+        "correct": true
       },
-      { "id": 4, "value": "Такого методу не існує", "correct": true }
+      { "id": 4, "value": "Такого методу не існує", "correct": false }
     ]
   },
   {
@@ -242,16 +242,16 @@
     "question": "Успішний POST запит в загальному випадку завершується статусом:",
     "answers": [
       { "id": 1, "value": "200 OK", "correct": false },
-      { "id": 2, "value": "201 Created", "correct": false },
+      { "id": 2, "value": "201 Created", "correct": true },
       { "id": 3, "value": "202 Accepted", "correct": false },
-      { "id": 4, "value": "204 No Content", "correct": true }
+      { "id": 4, "value": "204 No Content", "correct": false }
     ]
   },
   {
     "№": 20,
     "question": "Чи вірне твердження: функцію next (третій аргумент middleware функції) можна назвати як завгодно, але за домовленістю вона завжди називається «next»?",
     "answers": [
-      { "id": 1, "value": "Так", "correct": false },
+      { "id": 1, "value": "Так", "correct": true },
       { "id": 2, "value": "Ні", "correct": false }
     ]
   },
@@ -264,9 +264,9 @@
       {
         "id": 3,
         "value": "Назву файла з розширенням або без такого - залежно від переданих аргументів",
-        "correct": false
+        "correct": true
       },
-      { "id": 4, "value": "Жодна відповідь не є вірною", "correct": true }
+      { "id": 4, "value": "Жодна відповідь не є вірною", "correct": false }
     ]
   },
   {
@@ -275,16 +275,16 @@
     "answers": [
       { "id": 1, "value": "process.chdir() ", "correct": false },
       { "id": 2, "value": "process.nextTick()", "correct": false },
-      { "id": 3, "value": "process.close() ", "correct": false },
-      { "id": 4, "value": "process.kill() ", "correct": true }
+      { "id": 3, "value": "process.close() ", "correct": true },
+      { "id": 4, "value": "process.kill() ", "correct": false }
     ]
   },
   {
     "№": 23,
-    "question": "Чи можна функцію проміжного ПЗ express.static викликатикілька разів, наприклад:",
-    "Code": "app.use(express.static('public'))\napp.use(express.static('files'))",
+    "question": "Чи можна функцію проміжного ПЗ express.static викликати кілька разів, наприклад:",
+    "code": "app.use(express.static('public'))\napp.use(express.static('files'))",
     "answers": [
-      { "id": 1, "value": "Так", "correct": false },
+      { "id": 1, "value": "Так", "correct": true },
       { "id": 2, "value": "Ні", "correct": false }
     ]
   },
@@ -300,13 +300,13 @@
       {
         "id": 2,
         "value": "Ім'я файлу на комп'ютері користувача",
-        "correct": false
+        "correct": true
       },
       { "id": 3, "value": "Каталог, де буде збережено файл", "correct": false },
       {
         "id": 4,
         "value": "Повний шлях до завантажуваного файлу",
-        "correct": true
+        "correct": false
       }
     ]
   },
@@ -316,15 +316,15 @@
     "answers": [
       { "id": 1, "value": "$gt", "correct": false },
       { "id": 2, "value": "$gte", "correct": false },
-      { "id": 3, "value": "$lte", "correct": false },
-      { "id": 4, "value": "$lt", "correct": true }
+      { "id": 3, "value": "$lte", "correct": true },
+      { "id": 4, "value": "$lt", "correct": false }
     ]
   },
   {
     "№": 26,
     "question": "Чи вірне твердження: статус 204 No content призначений для опису відповіді без тіла, за замовчуванням така відповідь не кешується?",
     "answers": [
-      { "id": 1, "value": "Так", "correct": false },
+      { "id": 1, "value": "Так", "correct": true },
       { "id": 2, "value": "Ні", "correct": false }
     ]
   },
@@ -332,7 +332,7 @@
     "№": 27,
     "question": "Чи вірним є твердження: метод app.listen() повертає об’єкт http.Server?",
     "answers": [
-      { "id": 1, "value": "Так", "correct": false },
+      { "id": 1, "value": "Так", "correct": true },
       { "id": 2, "value": "Ні", "correct": false }
     ]
   },
@@ -355,9 +355,9 @@
     "question": "Що поверне метод fs.readdir при спробі прочитати порожню директорію?",
     "answers": [
       { "id": 1, "value": "Порожній об'єкт", "correct": false },
-      { "id": 2, "value": "Порожній масив", "correct": false },
+      { "id": 2, "value": "Порожній масив", "correct": true },
       { "id": 3, "value": "Порожній псевдомасив", "correct": false },
-      { "id": 4, "value": "null", "correct": true }
+      { "id": 4, "value": "null", "correct": false }
     ]
   },
   {
@@ -367,7 +367,7 @@
       {
         "id": 1,
         "value": "Коди статусу, що повертаються за ідемпотентними запитами, не повинні відрізнятися",
-        "correct": false
+        "correct": true
       },
       {
         "id": 2,
@@ -379,7 +379,7 @@
         "value": "Метод HTTP є ідемпотентним, якщо повторний ідентичний запит, зроблений один або кілька разів поспіль, має той самий ефект, що не змінює стан сервера",
         "correct": false
       },
-      { "id": 4, "value": "Всі наведені тверження є вірними", "correct": true }
+      { "id": 4, "value": "Всі наведені тверження є вірними", "correct": false }
     ]
   }
 ]
