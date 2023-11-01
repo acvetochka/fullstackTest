@@ -161,12 +161,12 @@
       {
         "id": 3,
         "value": "Числа, рядки, логічний тип, об'єкти, масиви, null, undefined",
-        "correct": true
+        "correct": false
       },
       {
         "id": 4,
         "value": "Числа, рядки, логічний тип, об'єкти, null, undefined",
-        "correct": false
+        "correct": true
       }
     ]
   },
