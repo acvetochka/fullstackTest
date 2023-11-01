@@ -324,8 +324,8 @@
     "№": 26,
     "question": "Чи вірне твердження: статус 204 No content призначений для опису відповіді без тіла, за замовчуванням така відповідь не кешується?",
     "answers": [
-      { "id": 1, "value": "Так", "correct": true },
-      { "id": 2, "value": "Ні", "correct": false }
+      { "id": 1, "value": "Так", "correct": false },
+      { "id": 2, "value": "Ні", "correct": true }
     ]
   },
   {

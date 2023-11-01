@@ -245,8 +245,8 @@
     "№": 22,
     "question": "За умовчанням, значення властивості align-items для флекс-контейнера буде...",
     "answers": [
-      { "id": 1, "value": "flex-start", "correct": true },
-      { "id": 2, "value": "stretch", "correct": false },
+      { "id": 1, "value": "flex-start", "correct": false },
+      { "id": 2, "value": "stretch", "correct": true },
       { "id": 3, "value": "center", "correct": false },
       { "id": 4, "value": "baseline", "correct": false }
     ]
