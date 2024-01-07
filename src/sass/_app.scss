@@ -97,3 +97,16 @@
     display: block;
     margin-top: 30px;    
 }
+.btn-next {
+	cursor: pointer;
+	padding: 5px 15px;
+	border-radius: 4px;
+	background: #aacfff;
+	border: none;
+	box-shadow: inset 0px 0px 10px blue;
+	transition: box-shadow 0.2s ease-in-out;
+
+	&:hover {
+		box-shadow: inset 0px 0px 15px blue;
+	}
+}

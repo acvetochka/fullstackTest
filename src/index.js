@@ -20,31 +20,43 @@ let totalNode = 0;
 
 nav.addEventListener('click', e => {
   e.preventDefault();
+  // console.log(e);
 
   navLink.forEach(item => {
+    console.log(item);
+    console.log(e.target);
     if (item.classList.contains('current')) {
       item.classList.remove('current');
     }
+    if (e.target.dataset.nav === item.dataset.nav) {
+      item.classList.add('current');
+    }
   });
   // navLink.classList.contains('current');
-  console.log(e.target.textContent);
+  // console.log(e.target.textContent);
 
-  e.target.classList.add('current');
-  switch (e.target.textContent) {
-    case 'HTML':
+  // console.log(e.target.nodeName);
+  // switch (e.target.textContent) {
+
+  // if (e.target.nodeName !== 'A') {
+  //   return;
+  // }
+
+  switch (e.target.dataset.nav) {
+    case 'html':
       count = 0;
       renderQuestions(htmlTest, 0, count, totalHTML);
       // console.log(totalHTML);
       break;
-    case 'JavaScript':
+    case 'javascript':
       count = 0;
       renderQuestions(js, 0, count, totalJs);
       break;
-    case 'React':
+    case 'react':
       count = 0;
       renderQuestions(react, 0, count, totalReact);
       break;
-    case 'Node':
+    case 'node':
       count = 0;
       renderQuestions(node, 0, count, totalNode);
       break;

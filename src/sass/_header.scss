@@ -8,6 +8,7 @@ header {
 .container {
   padding: 0 15px;
 }
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -19,6 +20,7 @@ header {
   &__item {
     position: relative;
   }
+
   &__link {
     // position: relative;
     text-decoration: none;
@@ -28,14 +30,22 @@ header {
     &:focus {
       color: rgba(15, 135, 172, 0.838);
       text-shadow: none;
+& .nav__icon {
+    scale: 1.2;
+  }
     }
   }
 
   &__count {
     position: absolute;
-      top: -10px;
-        font-size: 12px;
+    top: -10px;
+      font-size: 12px;
   }
+&__icon {
+  width: 40px;
+  height: 40px;
+  transition: scale 0.2s ease-in-out;
+}
 }
 
 

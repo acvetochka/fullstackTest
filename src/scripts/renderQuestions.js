@@ -13,7 +13,7 @@ export const renderQuestions = (module, idx, count, moduleCount) => {
   btnRestart.classList.add('btn_hidden');
   const { answers, question, code } = module[idx];
   //   console.log(counter);
-  console.log(count);
+  // console.log(count);
   //   console.log(`TotalCount: ${count}`);
   //   console.log(moduleCount);
   //   console.log(`ModuleCount: ${moduleCount}`);
@@ -45,10 +45,11 @@ export const renderQuestions = (module, idx, count, moduleCount) => {
   const renderCount = () => {
     console.log(counter);
     counter.forEach(item => {
-      console.log(item.previousElementSibling);
+      // console.log(item.previousElementSibling);
+      console.log(item.nextSibling);
       if (item.previousElementSibling.classList.contains('current')) {
         item.innerHTML = `${count}/${module.length}`;
-        console.log(item);
+        // console.log(item);
       }
     });
     counter.innerHTML = `${correctAnswers}/${module.length}`;
