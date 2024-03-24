@@ -354,5 +354,482 @@
         "correct": false
       }
     ]
+  },
+  {
+    "№": 31,
+    "question": "Яка властивість дозволяє повністю прибрати елемент зі сторінки, навіть від читачів екрану?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "display: none",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "value": "visibility: hidden",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "opacity: 0",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "value": "hidden",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "№": 32,
+    "question": "Якого псевдоелемента не існує?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "selection",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "first-letter ",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "link",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "№": 33,
+    "question": "Доповність речення: \"Атрибут disabled для button...\"",
+    "answers": [
+      {
+        "id": 1,
+        "value": "приховає кнопку",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "value": "зробить її неактивною",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "№": 34,
+    "question": "Який тег призначений для зберігання службової інформації про сторінку?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "<h1>",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "<head>",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "value": "<header>",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "value": "<body>",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "№": 35,
+    "question": "  Яке значення дозволить зробити рамку такого самого кольору, як і текст цього елемента",
+    "answers": [
+      {
+        "id": 1,
+        "value": "initial",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "currentColor",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "value": "textColor",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "№": 36,
+    "question": "Що не враховується при розрахунку ширини та висоти блоку",
+    "answers": [
+      {
+        "id": 1,
+        "value": "padding",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "content",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "margin",
+        "correct": true
+      },
+      {
+        "id": 4,
+        "value": "border",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "№": 37,
+    "question": "Від чого почне відлік свого положення елемент із властивістю position:absolute",
+    "answers": [
+      {
+        "id": 1,
+        "value": "від найближчого батьківського елемента з властивістю position, значення якої відмінне від static",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "value": "від батьківського елемента з властивістю display: block",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "від дочірнього елемента з властивістю position: relative",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "value": "від батьківського елемента із властивістю position: static",
+        "correct": false
+      }
+    ]
+  }, 
+  {
+    "№": 38,
+    "question": "Для чого застосовують властивість position: fixed?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "для створення випадаючого меню блоку навігації",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "для навігації всередині заданого блоку сторінки",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "для навігації між сторінками",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "value": "для створення блоку закріпленого у viewport, навіть під час прокручування сторінки",
+        "correct": true
+      }
+    ]
+
+  },
+  {
+    "№": 39,
+    "question": "Доповніть речення: \"Властивість z-index працює для...\"",
+    "answers": [
+      {
+        "id": 1,
+        "value": "будь-якого елемента в потоці",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "елементів з position відмінним від static",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "value": "будь-якого елемента на сторінці",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "value": "лише для елементів з position: absolute",
+        "correct": false
+      }
+    ]
+
+  },
+  {
+    "№": 40,
+    "question": "Встановлено властивість font-family: Roboto, Verdana, sans-serif; В системі немає ні Roboto, Hi Verdana, який шрифт підключиться?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "системний шрифт із сімейства із засічками",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "системний моношрифт",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "системний шрифт із сімейства без засічок",
+        "correct": true
+      }
+    ]
+
+  },
+  {
+    "№": 41,
+    "question": "Доповніть речення: \"Адаптивний сайт це ... \"",
+    "answers": [
+      {
+        "id": 1,
+        "value": "сайт який має лише кілька варіантів відображення залежно від ширини екрана або типу пристрою",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "value": "сайт, який плавно змінює свій вигляд при зміні ширини в'юпорту",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "сайт, який відображається на будь-якому пристрої однаково",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "value": "сайт який відображається так, як цього хоче користувач",
+        "correct": false
+      }
+    ]
+
+  },
+  {
+    "№": 42,
+    "question": "Навіщо використовується метатег viewport?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "для того, щоб веб-сторінка скоріше завантажувалася",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "для того, щоб сторінку можна було розтягувати",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "для того щоб працювали медіа правила",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "value": "для того, щоб встановити віртуальний в'юпорт рівним фізичному",
+        "correct": true
+      }
+    ]
+
+  },
+  {
+    "№": 43,
+    "question": "Яке сss правило зробить контентні зображення на сторінці респонсивними, без втрати його пропорцій?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "img { display: block; width: 100%; }",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "img { display: block; max-width: 100%; height: auto; }",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "value": "img { display: block; width: 100%; height: 100%; }",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "value": "img { display: block; max-width: 100%; height: 100%; }",
+        "correct": false
+      }
+    ]
+
+  },
+  {
+    "№": 44,
+    "question": "При mobile-first підході використовуються тільки min-width медіаправила?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "ні",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "value": "так",
+        "correct": false
+      }
+    ]
+
+  },
+  {
+    "№": 45,
+    "question": "Що таке зображення SVG?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "карта пікселів, де кожен піксель містить інформацію про колір",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "набір математичних формул, що описують опорні точки і криві, що з'єднують їх",
+        "correct": true
+      }
+    ]
+
+  },
+  {
+    "№": 46,
+    "question": "Яке значення position дозволяє зафіксувати елемент на екрані доки його контейнер не залишив область видимості?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "fixed",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "absolute",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "sticky",
+        "correct": true
+      },
+      {
+        "id": 4,
+        "value": "static",
+        "correct": false
+      }
+    ]
+
+  },
+  {
+    "№": 47,
+    "question": "3 яким елементом НЕ взаємодіятиме псевдоклас :focus ",
+    "answers": [
+      {
+        "id": 1,
+        "value": "елемент списку",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "value": "посилання",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "кнопка",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "value": "поле форми",
+        "correct": false
+      }
+    ]
+
+  },
+  {
+    "№": 48,
+    "question": "Який тег використовується для групування опцій всередині елемента select?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "optgroup",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "value": "group",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "srcset",
+        "correct": false
+      }
+    ]
+
+  },
+  {
+    "№": 49,
+    "question": "Яка властивість CSS відповідає за спосіб масштабування та заповнення контентного зображення в межах його контейнера?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "background-size",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "background-position",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "object-fit",
+        "correct": true
+      }
+    ]
+
+  },
+  {
+    "№": 50,
+    "question": "Який атрибут робить поле форми обов'язковим для заповнення?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "important",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "required",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "value": "optional",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "value": "disabled",
+        "correct": true
+      }
+    ]
   }
 ]
