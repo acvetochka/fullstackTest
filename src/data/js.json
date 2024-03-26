@@ -414,5 +414,279 @@
         "correct": true
       }
     ]
+  },
+  {
+    "№": 30,
+    "question": "Який метод використовується для знаходження мінімального числа з набора чисел?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "Math.floor()",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "Math.max()",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "Math.random()",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "value": "Math.min()",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "№": 31,
+    "question": "Який метод використовується для перетворення рядка в масив?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "slice()",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "join()",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "split()",
+        "correct": true
+      },
+      {
+        "id": 4,
+        "value": "splice()",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "№": 32,
+    "question": "Який метод використовується для заміни елемента в масиві?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "slice()",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "splice()",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "value": "push()",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "pop()",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "№": 33,
+    "question": "Який метод використовується для видалення останнього елемента з масиву?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "pop()",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "value": "push()",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "shift()",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "value": "unshift()",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "№": 34,
+    "question": "Який метод промісу дозволяє виконати код незалежно від того, як виконався проміс?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "do()",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "catch()",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "then()",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "value": "finally()",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "№": 35,
+    "question": "Що таке статичні властивості класу?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "властивості доступні тільки класу, але не його екземплярам",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "value": "властивості доступні лише екземплярам, але не класу",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "властивості, які не можна змінювати після створення",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "№": 36,
+    "question": "Яке ключове слово реалізує успадкування класів у ES6?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "inherits",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "prototype",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "extends",
+        "correct": true
+      },
+      {
+        "id": 4,
+        "value": "childOf",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "№": 37,
+    "question": "Що робить виклик super() у конструкторі класу?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "викликає конструктор батьківського класу",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "value": "викликає власний конструктор класу",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "ініціалізує створення екземпляра класу",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "№": 38,
+    "question": "Коли ES6 клас повинен викликати super()?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "до першого звернення до ключового слова this перед конструктором",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "super можна не викликати, якщо конструктор не повертає об'єкт",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "до першого звернення до ключового слова this в тілі конструктора",
+        "correct": true
+      },
+      {
+        "id": 4,
+        "value": "до першого звернення до ключового слова this в методах поза конструктором",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "№": 39,
+    "question": "Що повертає метод Promise.prototype.then()?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "проміс (promise)",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "value": "дані",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "нічого",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "№": 40,
+    "question": "Що робить функція setTimeout()?",
+    "answers": [
+      {
+        "id": 1,
+        "value": "перевіряє рівність двох значень",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "value": "виводить текст у консоль",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "value": "виконує функцію після заданого інтервалу часу",
+        "correct": true
+      },
+      {
+        "id": 4,
+        "value": "призупиняє виконання коду на певний час",
+        "correct": false
+      }
+    ]
   }
+
+
+
 ]
