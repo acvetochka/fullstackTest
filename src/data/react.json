@@ -335,5 +335,134 @@
         "correct": false
       }
     ]
+  },
+  {
+    "№": 31,
+    "question": "Що з варіантів є відкритою JS бібліотекою для розробки користувацьких інтерфейсів?",
+    "answers": [
+      { "id": 1, "value": "React", "correct": true },
+      { "id": 2, "value": "JavaScript", "correct": false },
+      {
+        "id": 3,
+        "value": "HTML/CSS",
+        "correct": false
+      },
+      { "id": 4, "value": "Redux", "correct": false }
+    ]
+  },
+  {
+    "№": 32,
+    "question": "Доповніть речення: \"Метод ReactDOM.render() використовується для того, щоб ... \"" ,
+    "answers": [
+      { "id": 1, "value": "змінити елемент", "correct": false },
+      { "id": 2, "value": "видалити елемент", "correct": false },
+      {
+        "id": 3,
+        "value": "цей метод не використовується",
+        "correct": false
+      },
+      { "id": 4, "value": "відобразити елемент в браузері", "correct": true }
+    ]
+  },
+  {
+    "№": 33,
+    "question": "Яка різниця між props i state в класовому компоненті?",
+    "answers": [
+      { "id": 1, "value": "немає різниці", "correct": false },
+      { "id": 2, "value": "props - передається в компонент ззовні. state - внутрішній стан компонента", "correct": true },
+      {
+        "id": 3,
+        "value": "props, на відміну від state, має спеціальний метод для зміни значень своїх властивостей",
+        "correct": false
+      },
+      { "id": 4, "value": "state - передається в компонент ззовні. props - внутрішній стан компонента", "correct": false }
+    ]
+  },
+  {
+    "№": 34,
+    "question": "Ім'я react компонента обов'язково має починатися з великої літери",
+    "answers": [
+      { "id": 1, "value": "так", "correct": true },
+      { "id": 2, "value": "Hi", "correct": false }
+    ]
+  },
+  {
+    "№": 35,
+    "question": "Як обновити state в класовому компоненті?",
+    "answers": [
+      { "id": 1, "value": "можна мутувати state по посиланню", "correct": false },
+      { "id": 2, "value": "потрібно викликати метод this.state()", "correct": false },
+      {
+        "id": 3,
+        "value": "потрібно викликати метод this.setState()",
+        "correct": true
+      },
+      { "id": 4, "value": "потрібно викликати метод this.useState()", "correct": false }
+    ]
+  },
+  {
+    "№": 36,
+    "question": "Що по дефолту відбувається при зміні state або props компонента?",
+    "answers": [
+      { "id": 1, "value": "те, що вкаже розробник", "correct": false },
+      { "id": 2, "value": "оновлення батьківського компонента", "correct": false },
+      {
+        "id": 3,
+        "value": "нічого не відбувається",
+        "correct": false
+      },
+      { "id": 4, "value": "re-render цього компонента", "correct": true }
+    ]
+  },
+  {
+    "№": 37,
+    "question": "Для чого потрібний компонент Fragment?",
+    "answers": [
+      { "id": 1, "value": "фрагменти дозволяють формувати списки дочірніх елементів,створюючи додаткові вузли в DOM", "correct": false },
+      { "id": 2, "value": "це застаріла технологія, в новій версії react не використовується", "correct": false },
+      {
+        "id": 3,
+        "value": "фрагменти дозволяють формувати списки дочірніх елементів, НЕ створюючи зайвих вузлів в DOM",
+        "correct": true
+      },
+      { "id": 4, "value": "для того, щоб успадкуватися від PureComponent при створенні класового компонента", "correct": false }
+    ]
+  },
+  {
+    "№": 38,
+    "question": "Чи дозволяє хук useEffect зробити те саме, що й методи componentDidMount, componentDidUpdate, Ta componentWillUnmount?",
+    "answers": [
+      { "id": 1, "value": "так", "correct": true },
+      { "id": 2, "value": "Hİ", "correct": false }
+    ]
+  },
+  {
+    "№": 39,
+    "question": "Що таке redux middleware?",
+    "answers": [
+      { "id": 1, "value": "Redux middleware діє як посередник між action i кореневим ред'юсером", "correct": true },
+      { "id": 2, "value": "Redux middleware використовується для створення глобального state, на який підписуються компоненти, яким потрібно з нього читати дані", "correct": false },
+      {
+        "id": 3,
+        "value": "Redux middleware використовується для простої передачі prоps між компонентами",
+        "correct": false
+      },
+      { "id": 4, "value": "це селектори, які інкапсулюють структуру стану та можуть використовуватися повторно", "correct": false }
+    ]
+  },
+  {
+    "№": 40,
+    "question": "Для чого потрібні redux селектори?",
+    "answers": [
+      { "id": 1, "value": "для отримання даних з context в будь якому компоненті проєкту", "correct": false },
+      { "id": 2, "value": "для вибірки частини стану (state) з Redux сховища", "correct": false },
+      {
+        "id": 3,
+        "value": "для створення глобального state, на який підписуються компоненти, яким потрібно з нього читати дані",
+        "correct": true
+      },
+      { "id": 4, "value": "цей хук дає можливість створювати state та додавати методи життєвого циклу всередині функціонального компонента", "correct": false }
+    ]
   }
+
 ]
