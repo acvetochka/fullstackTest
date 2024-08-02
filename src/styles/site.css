@@ -21,3 +21,27 @@ body, html
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 	margin: 20px;
 }
+
+svg{
+	/* fill: url(#pattern) */
+}
+g{
+	opacity: 0.8;
+	/* fill: url(#pattern); */
+	transition: transform 0.5s ease-in-out;
+}
+g:hover {
+	opacity: 1;
+	fill: rgb(103, 103, 223);
+}
+polygon {
+	transition: transform 3s ease-in-out;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+polygon:hover {
+	cursor: pointer;
+
+	
+}
